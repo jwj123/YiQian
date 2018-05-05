@@ -1,0 +1,8 @@
+{
+  "host": "112.74.170.73",
+  "port": "21000",
+  "dbname": "xform",
+  "authMechanism": "SCRAM-SHA-1",
+  "username": "xform",
+  "password": "zldsl18w"
+}

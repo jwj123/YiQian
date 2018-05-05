@@ -1,0 +1,59 @@
+[2017-05-17 11:05:58.774] [ERROR] routers.question - ReferenceError: data is not defined
+    at Question.insertOne.then (/home/jeffwang/fe/xform/routes/question/index.js:13:43)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+[2017-05-17 11:16:43.131] [ERROR] app - TypeError: Cannot read property 'data' of undefined
+    at router.post (/home/jeffwang/fe/xform/routes/question/index.js:23:24)
+    at Layer.handle [as handle_request] (/home/jeffwang/fe/xform/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/jeffwang/fe/xform/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/jeffwang/fe/xform/node_modules/express/lib/router/layer.js:95:5)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:281:22
+    at param (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:275:10)
+[2017-05-17 11:19:04.884] [ERROR] app - TypeError: Cannot read property 'data' of undefined
+    at router.post (/home/jeffwang/fe/xform/routes/question/index.js:23:24)
+    at Layer.handle [as handle_request] (/home/jeffwang/fe/xform/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/jeffwang/fe/xform/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/jeffwang/fe/xform/node_modules/express/lib/router/layer.js:95:5)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:281:22
+    at param (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:275:10)
+[2017-05-17 11:20:52.262] [ERROR] app - TypeError: Cannot read property 'data' of undefined
+    at router.post (/home/jeffwang/fe/xform/routes/question/index.js:23:24)
+    at Layer.handle [as handle_request] (/home/jeffwang/fe/xform/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/jeffwang/fe/xform/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/jeffwang/fe/xform/node_modules/express/lib/router/layer.js:95:5)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:281:22
+    at param (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:275:10)
+[2017-05-17 12:05:28.215] [ERROR] console - Port 3000 is already in use
+[2017-05-17 13:28:29.378] [ERROR] app - { Error: Not Found
+    at /home/jeffwang/fe/xform/app.js:46:13
+    at Layer.handle [as handle_request] (/home/jeffwang/fe/xform/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:317:13)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:275:10)
+    at serveStatic (/home/jeffwang/fe/xform/node_modules/serve-static/index.js:75:16)
+    at Layer.handle [as handle_request] (/home/jeffwang/fe/xform/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:317:13)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:284:7 status: 404 }
+[2017-05-17 13:29:19.030] [ERROR] app - { Error: Not Found
+    at /home/jeffwang/fe/xform/app.js:47:13
+    at Layer.handle [as handle_request] (/home/jeffwang/fe/xform/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:317:13)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:275:10)
+    at serveStatic (/home/jeffwang/fe/xform/node_modules/serve-static/index.js:75:16)
+    at Layer.handle [as handle_request] (/home/jeffwang/fe/xform/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:317:13)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:284:7 status: 404 }

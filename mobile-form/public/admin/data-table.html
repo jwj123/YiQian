@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>UPAdmin</title>
+  <!-- Tell the browser to be responsive to screen width -->
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+  <!-- Bootstrap 3.3.5 -->
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  <!-- 使用内容分发网络 -->
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdn.bootcss.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <!-- Ionicons -->
+  <link rel="stylesheet" href="https://cdn.bootcss.com/ionicons/2.0.1/css/ionicons.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="AdminLTE2/css/AdminLTE.css">
+  
+  <!-- AdminLTE2提供的皮肤 -->
+  <link rel="stylesheet" href="AdminLTE2/css/skins/skin-blue.css">
+  	
+ 
+  <!-- DataTables -->
+  <link rel="stylesheet" href="js/plugins/datatables/dataTables.bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="js/plugins/datepicker/css/bootstrap-datepicker3.min.css"/>
+<!--  <link rel="stylesheet" href="js/plugins/jQueryFileUpload/blueimp-gallery/blueimp-gallery.css" />-->
+  <!--<link rel="stylesheet" type="text/css" href="js/plugins/jQueryFileUpload/css/jquery.fileupload.css"/>-->
+  <link rel="stylesheet" type="text/css" href="js/plugins/jQueryFileUpload/css/jquery.fileupload-ui.css"/>
+  
+  <!--<link rel="stylesheet" type="text/css" href="js/plugins/video/video-js.min.css"/>-->
+  
+   <!-- 数据表特有样式开始 -->
+  <link rel="stylesheet" type="text/css" href="css/data-tables.css"/>
+  <!-- 数据表特有样式结束 -->
+  
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!-- html5shiv 解决html5新元素不被ie6-ie8识别的问题 -->
+  <!-- response 解决css3 mediaQuery不被ie6-ie8支持的问题 -->
+  <!--[if lt IE 8]>
+  	<script type="text/javascript" src="js/plugins/video/ie8/videojs-ie8.min.js" ></script>
+  <![endif]-->
+  <!--[if lt IE 9]>
+  <script src="//cdn.bootcss.com/html5shiv/r29/html5.min.js"></script>
+  <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+  
+  
+</head>
+	<body class="hold-transition skin-blue sidebar-mini">
+		<!-- 模拟框开始 -->
+			<div class="modal fade" id="video" tabindex="-1" role="dialog" aria-labelledby="video-label">
+			  <div class="modal-dialog modal-lg" role="document">
+				  <div class="modal-content">
+				      <div class="modal-header">
+				        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				        <h4 class="modal-title" id="video-label">视频</h4>
+				      </div>
+				      <div class="modal-body">
+				        
+				      </div>
+				      <div class="modal-footer">
+				        <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+				      </div>
+				    </div>
+				  </div>
+				</div>			
+			<!-- 模拟框结束 -->
+			
+			
+			<!-- 内容编辑器 -->
+			<div class="modal fade" id="content" tabindex="-1" role="dialog" aria-labelledby="video-label">
+			  <div class="modal-dialog" role="document">
+				  <div class="modal-content">
+				      <div class="modal-header">
+				        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				        <h4 class="modal-title" id="video-label">内容编辑</h4>
+				      </div>
+				      <div class="modal-body">
+				        <textarea id='editor' name='content' style='width: 100%;height: 300px;'></textarea>
+				      </div>
+				      <div class="modal-footer">
+				        <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+				        <button type="button" class="btn btn-primary" id="edit-save">保存修改</button>
+				      </div>
+				    </div>
+				  </div>
+				</div>
+			
+			
+		<div class="wrapper">
+		
+		  <!-- Main Header -->
+		  <header class="main-header">
+		
+		    <!-- Logo -->
+		    <a href="index.html" class="logo">
+		      <span class="logo-mini"><b>Form</b></span>
+		      <span class="logo-lg"><b>Mobile</b>Form</span>
+		    </a>
+		
+		    <!-- Header Navbar -->
+		    <nav class="navbar navbar-static-top" role="navigation">
+		      <!-- Sidebar toggle button-->
+		      <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
+		        <span class="sr-only">Toggle navigation</span>
+		      </a>
+		      <!-- Navbar Right Menu -->
+		      <div class="navbar-custom-menu">
+		        <ul class="nav navbar-nav">
+		        
+		        	<!-- 信箱栏目 -->
+		          <li class="dropdown messages-menu">
+		            <!-- Menu toggle button -->
+		            <!-- 信箱 -->
+		            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+		              <i class="fa fa-bell-o"></i>
+		              <span class="label label-danger">10</span>
+		            </a>
+		            <ul class="dropdown-menu">
+		              <li class="header">你有<span>10</span>个任务需要完成</li>
+		              <li>
+		                <!-- inner menu: contains the messages -->
+		                <ul class="menu">
+		                  <li><!-- start message -->
+		                    <a href="#">
+		                      <div class="pull-left">
+		                        <!-- User Image -->
+		                        <img src="img/user2-160x160.jpg" class="img-circle" alt="User Image">
+		                      </div>
+		                      <!-- Message title and timestamp -->
+		                      <h4>
+		                                                       审核任务
+		                        <small><i class="fa fa-clock-o"></i> 5 分钟前</small>
+		                      </h4>
+		                      <!-- The message信息 -->
+		                      <p>好辣！好辣！坚持跑步20天</p>
+		                    </a>
+		                  </li>
+		                  <!-- end message信箱结束 -->
+		                </ul>
+		                <!-- /.menu -->
+		              </li>
+		              <li class="footer"><a href="#">查看所有</a></li>
+		            </ul>
+		          </li>
+		          <!-- 信箱栏目结束 -->
+		
+		          
+		          
+		          <!-- 用户栏目开始 -->
+		          <li class="dropdown user user-menu">
+		            <!-- Menu Toggle Button -->
+		            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+		              <!-- The user image in the navbar-->
+		              <img src="img/user2-160x160.jpg" class="user-image" alt="User Image">
+		              <!-- hidden-xs hides the username on small devices so only the image appears. -->
+		              <span class="hidden-xs">马辉</span>
+		            </a>
+		            <ul class="dropdown-menu">
+		              <!-- The user image in the menu -->
+		              <li class="user-header">
+		                <img src="img/user2-160x160.jpg" class="img-circle" alt="User Image">
+		
+		                <p>
+		                  	马辉 - 超级管理员
+		                  <small>于 2017年05月10日注册</small>
+		                </p>
+		              </li>
+		              <!-- Menu Body -->
+		              <!--<li class="user-body">
+		                <div class="row">
+		                  <div class="col-xs-4 text-center">
+		                    <a href="#">Followers</a>
+		                  </div>
+		                  <div class="col-xs-4 text-center">
+		                    <a href="#">Sales</a>
+		                  </div>
+		                  <div class="col-xs-4 text-center">
+		                    <a href="#">Friends</a>
+		                  </div>
+		                </div>
+		              </li>-->
+		              <!-- Menu Footer-->
+		              <li class="user-footer">
+		                <div class="pull-left">
+		                  <a href="#" class="btn btn-default btn-flat">个人信息</a>
+		                </div>
+		                <div class="pull-right">
+		                  <a href="#" class="btn btn-default btn-flat">退出登录</a>
+		                </div>
+		              </li>
+		            </ul>
+		          </li>
+		          <!-- 用户栏目结束 -->
+		          <!-- Control Sidebar Toggle Button -->
+		          <li>
+		            <a href="#" data-toggle="control-sidebar"><i class="fa fa-gears"></i></a>
+		          </li>
+		        </ul>
+		      </div>
+		    </nav>
+		  </header>
+		  <!-- 头部结束 -->
+		  
+		  <!-- 左侧栏目开始 -->
+		  <aside class="main-sidebar">
+		
+		    <!-- sidebar: style can be found in sidebar.less -->
+		    <section class="sidebar">
+		
+		      <!-- Sidebar user panel (optional) -->
+		      <div class="user-panel">
+		        <div class="pull-left image">
+		          <img src="img/user2-160x160.jpg" class="img-circle" alt="User Image">
+		        </div>
+		        <div class="pull-left info">
+		          <p>马辉</p>
+		          <!-- Status -->
+		          <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
+		        </div>
+		      </div>
+		
+		      <!-- 搜索框开始 -->
+		      <form action="#" method="get" class="sidebar-form">
+		        <div class="input-group">
+		          <input type="text" name="q" class="form-control" placeholder="搜索...">
+		              <span class="input-group-btn">
+		                <button type="submit" name="search" id="search-btn" class="btn btn-flat"><i class="fa fa-search"></i>
+		                </button>
+		              </span>
+		        </div>
+		      </form>
+		      <!-- 搜索框结束 -->
+		
+			<!-- 主要侧边栏目开始 -->
+		      <!-- Sidebar Menu -->
+		      <ul class="sidebar-menu">
+		        <li class="header">普通权限</li>
+		        <!-- Optionally, you can add icons to the links -->
+		        <li><a href="#"><i class="fa fa-home"></i> <span>主页</span></a></li>
+		        <!-- <li class="treeview">
+		          <a href="#"><i class="fa fa-th"></i> <span>平台信息管理</span><i class="fa fa-angle-left pull-right"></i></a>
+		          <ul class="treeview-menu">
+		            <li><a href="#">轮播图设置</a></li>
+		            <li><a href="#">标签设置</a></li>
+		            <li><a href="#">勋章设置</a></li>
+		          </ul>
+		        </li> -->
+		        <!-- <li><a href="#"><i class="fa fa-wechat"></i> <span>微信信息设置</span></a></li> -->
+		        <li class="active"><a href="#"><i class="fa fa-users"></i> <span>用户管理</span></a></li>
+		        <!-- <li><a href="#"><i class="fa fa-tasks"></i> <span>平台任务管理</span></a></li> -->
+		        <li><a href="#"><i class="fa fa-balance-scale"></i> <span>统计管理</span></a></li>
+		        <!-- <li><a href="#"><i class="fa fa-certificate"></i> <span>任务证据管理</span></a></li> -->
+		        <!-- <li><a href="#"><i class="fa fa-youtube-play"></i> <span>豁免视频管理</span></a></li> -->
+		        <!-- <li><a href="#"><i class="fa fa-bookmark"></i> <span>推荐任务管理</span></a></li> -->
+		        <!-- <li><a href="#"><i class="fa fa-star"></i> <span>豁免任务管理</span></a></li> -->
+		        <!-- <li class="header">高级权限</li>
+		        <li class="treeview">
+		          <a href="#"><i class="fa fa-table"></i> <span>数据表管理</span> <i class="fa fa-angle-left pull-right"></i></a>
+		          <ul class="treeview-menu">
+		            <li><a href="#">用户表</a></li>
+		            <li><a href="#">任务表</a></li>
+		          </ul>
+		        </li>
+		        <li><a href="#"><i class="fa fa-cog"></i> <span>管理员设置</span></a></li> -->
+		      </ul>
+		      <!-- 主要侧边栏目结束 -->
+		    </section>
+		    <!-- /.sidebar -->
+		  </aside>
+		  <!-- 侧边栏结束 -->
+		
+		  <!-- Content Wrapper. Contains page content -->
+		  <div class="content-wrapper">
+		    <!-- Content Header (Page header) -->
+		    <section class="content-header">
+		      <h1>
+		        	数据表管理
+		        <small>仅由管理员操作</small>
+		      </h1>
+		      <ol class="breadcrumb">
+		        <li><a href="#"><i class="fa fa-dashboard"></i> </a></li>
+		        <li class="active">Here</li>
+		      </ol>
+		    </section>
+		
+		   	<!-- 主要内容开始 -->
+		    <section class="content">
+				<div class="row">
+			        <div class="col-xs-12">
+			          <div class="box">
+			            <div class="box-header">
+			              <h3 class="box-title">用户表</h3>
+			              <div class="pull-right">
+			              		<button class="btn btn-sm bg-green" id="add-row">
+			              			<i class="fa fa-plus"></i> 添加
+			              		</button>
+			              	
+			              	  <div class="btn-group">
+					              	<button type="button" class="btn btn-sm bg-green">批量编辑</button>
+					              	<button type="button" 
+					              		class="btn btn-sm bg-green dropdown-toggle" 
+					              		data-toggle="dropdown" 
+					              		aria-expanded="false">
+					              		<span class="caret"></span>
+					              		<span class="sr-only">Toggle Dropdown</span>
+					              	</button>
+					              	<ul class="dropdown-menu" role="menu">
+					              		<li><a href="#">批量导入</a></li>
+					              		<li><a href="#">批量删除</a></li>
+					              	</ul>
+					              </div>
+			              	
+			              	
+			              	
+					              <div class="btn-group">
+					              	<button type="button" class="btn btn-sm bg-green">导出为</button>
+					              	<button type="button" 
+					              		class="btn btn-sm bg-green dropdown-toggle" 
+					              		data-toggle="dropdown" 
+					              		aria-expanded="false">
+					              		<span class="caret"></span>
+					              		<span class="sr-only">Toggle Dropdown</span>
+					              	</button>
+					              	<ul class="dropdown-menu" role="menu">
+					              		<li><a href="#">Excel</a></li>
+					              		<li><a href="#">PSD</a></li>
+					              	</ul>
+					              </div>
+			              </div>
+			             
+			            </div>
+			            <!-- start box-header -->
+			            <div class="box-body">
+			              <table id="example2" class="table table-bordered table-hover">
+			                <thead>
+			               		
+			                </thead>
+			                <tbody>
+			                
+			                </tbody>
+			                
+			              </table>
+			            </div>
+			            <!-- end box-body -->
+			          </div>
+			          <!-- end box -->
+			        </div>
+			        <!-- end col -->
+			      </div>
+						
+		    </section>
+		  </div>
+		  <!-- 主要内容结束 -->
+		 	 
+		  
+		  <!-- 尾部开始 -->
+		  <footer class="main-footer">
+		    <!-- To the right -->
+		    <div class="pull-right hidden-xs">
+		      developed by weilaile
+		    </div>
+		    <!-- Default to the left -->
+		    <strong>Copyright &copy; 2017 <a href="#"></a>.</strong> All rights reserved.
+		  </footer>
+		  <!-- 尾部结束 -->
+		
+		  <!-- Control Sidebar -->
+	
+		  <!-- /.control-sidebar -->
+		  <!-- Add the sidebar's background. This div must be placed
+		       immediately after the control sidebar -->
+		  <div class="control-sidebar-bg"></div>
+		</div>
+		
+		
+		<!-- end wrapper -->
+		<script type="text/javascript" src="js/plugins/jQuery/jQuery-2.1.4.min.js" ></script>
+		<script type="text/javascript" src="bootstrap/js/bootstrap.min.js" ></script><br />
+		<!-- 日期选择插件 -->
+		<script type="text/javascript" src="js/plugins/datepicker/js/bootstrap-datepicker.min.js" ></script>
+		<script type="text/javascript" src="js/plugins/datepicker/locales/bootstrap-datepicker.zh-CN.min.js" ></script>
+		<!-- 数据表格使用插件开始 -->
+		<!-- DataTables -->
+		<script src="js/plugins/datatables/jquery.dataTables.min.js"></script>
+		<script src="js/plugins/datatables/dataTables.bootstrap.min.js"></script>
+		<!-- SlimScroll -->
+		<script src="js/plugins/slimScroll/jquery.slimscroll.min.js"></script>
+		<!-- FastClick -->
+		<script src="js/plugins/fastclick/fastclick.js"></script>
+		<!-- 数据表格使用插件结束 -->
+		<!-- 视频播放插件 -->
+		<!--<script type="text/javascript" src="js/plugins/video/video.min.js" ></script>-->
+		<!-- 视频汉化 -->
+		<!--<script type="text/javascript" src="js/plugins/video/lang/zh-CN.js" ></script>-->
+		
+		<!-- 上传插件 -->
+		<script type="text/javascript" src="js/plugins/jQueryFileUpload/js/vendor/jquery.ui.widget.js" ></script>
+		<!--<script type="text/javascript" src="js/plugins/jQueryFileUpload/blueimp-gallery/jquery.blueimp-gallery.js" ></script>-->
+		<script type="text/javascript" src="js/plugins/jQueryFileUpload/load-image/load-image.all.min.js" ></script>		
+		<script type="text/javascript" src="js/plugins/jQueryFileUpload/canvas-to-blob/canvas-to-blob.min.js" ></script>
+		<script type="text/javascript" src="js/plugins/jQueryFileUpload/js/jquery.iframe-transport.js" ></script>
+		<script type="text/javascript" src="js/plugins/jQueryFileUpload/js/jquery.fileupload.js" ></script>
+		<script type="text/javascript" src="js/plugins/jQueryFileUpload/js/jquery.fileupload-process.js" ></script>
+		<!--<script type="text/javascript" src="js/plugins/jQueryFileUpload/js/jquery.fileupload-ui.js" ></script>-->
+		<script type="text/javascript" src="js/plugins/jQueryFileUpload/js/jquery.fileupload-image.js" ></script>
+		<script type="text/javascript" src="js/plugins/jQueryFileUpload/js/jquery.fileupload-audio.js" ></script>
+		<script type="text/javascript" src="js/plugins/jQueryFileUpload/js/jquery.fileupload-video.js" ></script>
+		<script type="text/javascript" src="js/plugins/jQueryFileUpload/js/jquery.fileupload-validate.js" ></script>
+		<script type="text/javascript" src="js/plugins/kindeditor-4.1.10/kindeditor-min.js" ></script>
+		<script type="text/javascript" src="js/plugins/kindeditor-4.1.10/lang/zh_CN.js" ></script>
+		<script type="text/javascript" src="AdminLTE2/js/app.min.js" ></script>
+		<script type="text/javascript" src="js/datatable.js" ></script>
+		<script>
+			$(function(){
+				var data = [
+		{
+			'id':'1',
+			'birthday':'1992-02-01',
+			'nickname':'马辉',
+			'avatar':'',
+			'qualification':'本科',
+			'city':'厦门',
+			'sex':'男',
+			'username':'mahui@163.com',
+			'signuptime':'2017-05-12'
+		}
+	];
+			/**
+			 * dataGrid插件，基于jQuery dataTables封装的一个集成插件
+			 * 集成了jQuery datapicker插件，jQueryFileUpload插件，以及kindeditor插件
+			 * 共有7中表现形式,cell-img,cell-video,cell-content,cell-tag,cell-date-range,cell-flex-text
+			 * 其中cell-video以及cell-date-range对所传数据有要求
+			 * cell-video的数据必须是一个对象其中包含url和poster两个参数，分别代表视频的地址和封面,
+			 * cell-date-range的数据必须是一个对象包含一个起始时间和一个结束时间，必须一个在前一个在后，但对命名没有要求
+			 * 具体可参看以下例子
+			 */
+				$("#example2").dataGrid({
+//					'serverSide':true,
+//					'ajax':{
+//						url:'trainPlanList'
+//					},
+					'data':data,
+					'columns':[
+						{'data':'id','title':'ID','className':'cell-id'},
+						{'data':'birthday','title':'生日'},
+						{'data':'nickname','title':'热量'},
+						{'data':'avatar','title':'头像'},
+						{'data':'qualification','title':'学历','className':'cell-flex-text'},
+						{'data':'city','title':'城市','className':'cell-flex-text'},
+						{'data':'sex','title':'性别','className':'cell-tag','tag_list':['男','女', '未知']},
+						{'data':'username','title':'email','className':'cell-flex-text'},
+						{'data':'signuptime','title':'注册事件','className':'cell-content'}
+					],
+					saveAjax:{
+						'url':'saveData',
+						'error':function(){
+							//dosomething
+							alert("网络问题");
+						}
+					},
+					deleteAjax:{
+						'url':'deleteData',
+						'type': 'post',
+						'error':function(){
+							//do something
+							alert("网络问题");
+						}
+					}
+				});
+			});
+		</script>
+	</body>
+</html>

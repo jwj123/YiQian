@@ -1,0 +1,134 @@
+[2017-05-18 00:32:29.805] [ERROR] db - { MongoError: failed to connect to server [112.74.170.73:21000] on first connect [MongoError: connect ENETUNREACH 112.74.170.73:21000 - Local (0.0.0.0:0)]
+    at Pool.eventHandler (/home/jeffwang/fe/xform/node_modules/mongodb-core/lib/topologies/server.js:328:35)
+    at emitOne (events.js:96:13)
+    at Pool.emit (events.js:188:7)
+    at Connection.<anonymous> (/home/jeffwang/fe/xform/node_modules/mongodb-core/lib/connection/pool.js:274:12)
+    at Connection.g (events.js:291:16)
+    at emitTwo (events.js:106:13)
+    at Connection.emit (events.js:191:7)
+    at Socket.errorHandler (/home/jeffwang/fe/xform/node_modules/mongodb-core/lib/connection/connection.js:177:49)
+    at Socket.g (events.js:291:16)
+    at emitOne (events.js:96:13)
+  name: 'MongoError',
+  message: 'failed to connect to server [112.74.170.73:21000] on first connect [MongoError: connect ENETUNREACH 112.74.170.73:21000 - Local (0.0.0.0:0)]' }
+[2017-05-18 00:32:40.841] [ERROR] console - (node:45340) UnhandledPromiseRejectionWarning: Unhandled promise rejection (rejection id: 1): MongoError: failed to connect to server [112.74.170.73:21000] on first connect [MongoError: connect ENETUNREACH 112.74.170.73:21000 - Local (0.0.0.0:0)]
+[2017-05-18 01:40:16.634] [ERROR] app - { Error: Failed to lookup view "public" in views directory "./views"
+    at EventEmitter.render (/home/jeffwang/fe/xform/node_modules/express/lib/application.js:580:17)
+    at ServerResponse.render (/home/jeffwang/fe/xform/node_modules/express/lib/response.js:966:7)
+    at module.exports (/home/jeffwang/fe/xform/routes/public/index.js:3:7)
+    at Layer.handle [as handle_request] (/home/jeffwang/fe/xform/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/jeffwang/fe/xform/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/jeffwang/fe/xform/node_modules/express/lib/router/layer.js:95:5)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:281:22
+    at param (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:365:14)
+  view: 
+   View {
+     defaultEngine: 'html',
+     ext: '.html',
+     name: 'public',
+     root: './views',
+     engine: { [Function: renderFile] template: [Object] },
+     path: undefined } }
+[2017-05-18 01:40:16.668] [ERROR] console - Error: Failed to lookup view "error" in views directory "./views"
+    at EventEmitter.render (/home/jeffwang/fe/xform/node_modules/express/lib/application.js:580:17)
+    at ServerResponse.render (/home/jeffwang/fe/xform/node_modules/express/lib/response.js:966:7)
+    at /home/jeffwang/fe/xform/app.js:64:7
+    at Layer.handle_error (/home/jeffwang/fe/xform/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:315:13)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:275:10)
+    at Layer.handle_error (/home/jeffwang/fe/xform/node_modules/express/lib/router/layer.js:67:12)
+    at trim_prefix (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:315:13)
+[2017-05-18 01:40:33.864] [ERROR] app - { Error: Failed to lookup view "public" in views directory "./views"
+    at EventEmitter.render (/home/jeffwang/fe/xform/node_modules/express/lib/application.js:580:17)
+    at ServerResponse.render (/home/jeffwang/fe/xform/node_modules/express/lib/response.js:966:7)
+    at module.exports (/home/jeffwang/fe/xform/routes/public/index.js:3:7)
+    at Layer.handle [as handle_request] (/home/jeffwang/fe/xform/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/jeffwang/fe/xform/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/jeffwang/fe/xform/node_modules/express/lib/router/layer.js:95:5)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:281:22
+    at param (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:365:14)
+  view: 
+   View {
+     defaultEngine: 'html',
+     ext: '.html',
+     name: 'public',
+     root: './views',
+     engine: { [Function: renderFile] template: [Object] },
+     path: undefined } }
+[2017-05-18 01:40:33.891] [ERROR] console - Error: Failed to lookup view "error" in views directory "./views"
+    at EventEmitter.render (/home/jeffwang/fe/xform/node_modules/express/lib/application.js:580:17)
+    at ServerResponse.render (/home/jeffwang/fe/xform/node_modules/express/lib/response.js:966:7)
+    at /home/jeffwang/fe/xform/app.js:64:7
+    at Layer.handle_error (/home/jeffwang/fe/xform/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:315:13)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:275:10)
+    at Layer.handle_error (/home/jeffwang/fe/xform/node_modules/express/lib/router/layer.js:67:12)
+    at trim_prefix (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:315:13)
+[2017-05-18 01:40:43.285] [ERROR] app - { Error: Failed to lookup view "public" in views directory "./views"
+    at EventEmitter.render (/home/jeffwang/fe/xform/node_modules/express/lib/application.js:580:17)
+    at ServerResponse.render (/home/jeffwang/fe/xform/node_modules/express/lib/response.js:966:7)
+    at module.exports (/home/jeffwang/fe/xform/routes/public/index.js:3:7)
+    at Layer.handle [as handle_request] (/home/jeffwang/fe/xform/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/jeffwang/fe/xform/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/jeffwang/fe/xform/node_modules/express/lib/router/layer.js:95:5)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:281:22
+    at param (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:365:14)
+  view: 
+   View {
+     defaultEngine: 'html',
+     ext: '.html',
+     name: 'public',
+     root: './views',
+     engine: { [Function: renderFile] template: [Object] },
+     path: undefined } }
+[2017-05-18 01:40:43.313] [ERROR] console - Error: Failed to lookup view "error" in views directory "./views"
+    at EventEmitter.render (/home/jeffwang/fe/xform/node_modules/express/lib/application.js:580:17)
+    at ServerResponse.render (/home/jeffwang/fe/xform/node_modules/express/lib/response.js:966:7)
+    at /home/jeffwang/fe/xform/app.js:64:7
+    at Layer.handle_error (/home/jeffwang/fe/xform/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:315:13)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:275:10)
+    at Layer.handle_error (/home/jeffwang/fe/xform/node_modules/express/lib/router/layer.js:67:12)
+    at trim_prefix (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:315:13)
+[2017-05-18 01:41:12.528] [ERROR] app - { Error: Failed to lookup view "public" in views directory "./views"
+    at EventEmitter.render (/home/jeffwang/fe/xform/node_modules/express/lib/application.js:580:17)
+    at ServerResponse.render (/home/jeffwang/fe/xform/node_modules/express/lib/response.js:966:7)
+    at module.exports (/home/jeffwang/fe/xform/routes/public/index.js:3:7)
+    at Layer.handle [as handle_request] (/home/jeffwang/fe/xform/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/jeffwang/fe/xform/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/jeffwang/fe/xform/node_modules/express/lib/router/layer.js:95:5)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:281:22
+    at param (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:365:14)
+  view: 
+   View {
+     defaultEngine: 'html',
+     ext: '.html',
+     name: 'public',
+     root: './views',
+     engine: { [Function: renderFile] template: [Object] },
+     path: undefined } }
+[2017-05-18 01:41:12.594] [ERROR] console - Error: Failed to lookup view "error" in views directory "./views"
+    at EventEmitter.render (/home/jeffwang/fe/xform/node_modules/express/lib/application.js:580:17)
+    at ServerResponse.render (/home/jeffwang/fe/xform/node_modules/express/lib/response.js:966:7)
+    at /home/jeffwang/fe/xform/app.js:64:7
+    at Layer.handle_error (/home/jeffwang/fe/xform/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:315:13)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:275:10)
+    at Layer.handle_error (/home/jeffwang/fe/xform/node_modules/express/lib/router/layer.js:67:12)
+    at trim_prefix (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:315:13)

@@ -1,0 +1,177 @@
+[2017-05-16 17:43:06.560] [ERROR] routers.auth - { MongoError: failed to reconnect after 30 attempts with interval 1000 ms
+    at Connection.<anonymous> (/home/jeffwang/fe/xform/node_modules/mongodb-core/lib/connection/pool.js:310:15)
+    at emitTwo (events.js:106:13)
+    at Connection.emit (events.js:191:7)
+    at Socket.<anonymous> (/home/jeffwang/fe/xform/node_modules/mongodb-core/lib/connection/connection.js:177:49)
+    at Socket.g (events.js:291:16)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at emitErrorNT (net.js:1278:8)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+  name: 'MongoError',
+  message: 'failed to reconnect after 30 attempts with interval 1000 ms' }
+[2017-05-16 17:43:06.574] [ERROR] routers.auth - { MongoError: failed to reconnect after 30 attempts with interval 1000 ms
+    at Connection.<anonymous> (/home/jeffwang/fe/xform/node_modules/mongodb-core/lib/connection/pool.js:310:15)
+    at emitTwo (events.js:106:13)
+    at Connection.emit (events.js:191:7)
+    at Socket.<anonymous> (/home/jeffwang/fe/xform/node_modules/mongodb-core/lib/connection/connection.js:177:49)
+    at Socket.g (events.js:291:16)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at emitErrorNT (net.js:1278:8)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+  name: 'MongoError',
+  message: 'failed to reconnect after 30 attempts with interval 1000 ms' }
+[2017-05-16 17:43:06.577] [ERROR] routers.auth - { MongoError: failed to reconnect after 30 attempts with interval 1000 ms
+    at Connection.<anonymous> (/home/jeffwang/fe/xform/node_modules/mongodb-core/lib/connection/pool.js:310:15)
+    at emitTwo (events.js:106:13)
+    at Connection.emit (events.js:191:7)
+    at Socket.<anonymous> (/home/jeffwang/fe/xform/node_modules/mongodb-core/lib/connection/connection.js:177:49)
+    at Socket.g (events.js:291:16)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at emitErrorNT (net.js:1278:8)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+  name: 'MongoError',
+  message: 'failed to reconnect after 30 attempts with interval 1000 ms' }
+[2017-05-16 17:43:06.749] [ERROR] routers.auth - { MongoError: Topology was destroyed
+    at nextFunction (/home/jeffwang/fe/xform/node_modules/mongodb-core/lib/cursor.js:540:25)
+    at Cursor.next [as _next] (/home/jeffwang/fe/xform/node_modules/mongodb-core/lib/cursor.js:692:3)
+    at nextObject (/home/jeffwang/fe/xform/node_modules/mongodb/lib/cursor.js:679:8)
+    at Cursor.next (/home/jeffwang/fe/xform/node_modules/mongodb/lib/cursor.js:269:12)
+    at findOne (/home/jeffwang/fe/xform/node_modules/mongodb/lib/collection.js:1415:10)
+    at /home/jeffwang/fe/xform/node_modules/mongodb/lib/collection.js:1405:5
+    at Collection.findOne (/home/jeffwang/fe/xform/node_modules/mongodb/lib/collection.js:1404:10)
+    at db.then.base (/home/jeffwang/fe/xform/db/user.js:25:4)
+    at process._tickCallback (internal/process/next_tick.js:103:7) name: 'MongoError', message: 'Topology was destroyed' }
+[2017-05-16 17:44:09.211] [ERROR] routers.auth - { MongoError: Topology was destroyed
+    at nextFunction (/home/jeffwang/fe/xform/node_modules/mongodb-core/lib/cursor.js:540:25)
+    at Cursor.next [as _next] (/home/jeffwang/fe/xform/node_modules/mongodb-core/lib/cursor.js:692:3)
+    at nextObject (/home/jeffwang/fe/xform/node_modules/mongodb/lib/cursor.js:679:8)
+    at Cursor.next (/home/jeffwang/fe/xform/node_modules/mongodb/lib/cursor.js:269:12)
+    at findOne (/home/jeffwang/fe/xform/node_modules/mongodb/lib/collection.js:1415:10)
+    at /home/jeffwang/fe/xform/node_modules/mongodb/lib/collection.js:1405:5
+    at Collection.findOne (/home/jeffwang/fe/xform/node_modules/mongodb/lib/collection.js:1404:10)
+    at db.then.base (/home/jeffwang/fe/xform/db/user.js:25:4)
+    at process._tickCallback (internal/process/next_tick.js:103:7) name: 'MongoError', message: 'Topology was destroyed' }
+[2017-05-16 17:45:18.735] [ERROR] routers.auth - { MongoError: Topology was destroyed
+    at nextFunction (/home/jeffwang/fe/xform/node_modules/mongodb-core/lib/cursor.js:540:25)
+    at Cursor.next [as _next] (/home/jeffwang/fe/xform/node_modules/mongodb-core/lib/cursor.js:692:3)
+    at nextObject (/home/jeffwang/fe/xform/node_modules/mongodb/lib/cursor.js:679:8)
+    at Cursor.next (/home/jeffwang/fe/xform/node_modules/mongodb/lib/cursor.js:269:12)
+    at findOne (/home/jeffwang/fe/xform/node_modules/mongodb/lib/collection.js:1415:10)
+    at /home/jeffwang/fe/xform/node_modules/mongodb/lib/collection.js:1405:5
+    at Collection.findOne (/home/jeffwang/fe/xform/node_modules/mongodb/lib/collection.js:1404:10)
+    at db.then.base (/home/jeffwang/fe/xform/db/user.js:25:4)
+    at process._tickCallback (internal/process/next_tick.js:103:7) name: 'MongoError', message: 'Topology was destroyed' }
+[2017-05-16 17:48:52.412] [WARN] console - the server/replset/mongos options are deprecated, all their options are supported at the top level of the options object [poolSize,ssl,sslValidate,sslCA,sslCert,sslKey,sslPass,sslCRL,autoReconnect,noDelay,keepAlive,connectTimeoutMS,socketTimeoutMS,reconnectTries,reconnectInterval,ha,haInterval,replicaSet,secondaryAcceptableLatencyMS,acceptableLatencyMS,connectWithNoPrimary,authSource,w,wtimeout,j,forceServerObjectId,serializeFunctions,ignoreUndefined,raw,promoteLongs,bufferMaxEntries,readPreference,pkFactory,promiseLibrary,readConcern,maxStalenessSeconds,loggerLevel,logger,promoteValues,promoteBuffers,promoteLongs,domainsEnabled,keepAliveInitialDelay,checkServerIdentity,validateOptions]
+[2017-05-16 17:49:26.225] [WARN] console - the server/replset/mongos options are deprecated, all their options are supported at the top level of the options object [poolSize,ssl,sslValidate,sslCA,sslCert,sslKey,sslPass,sslCRL,autoReconnect,noDelay,keepAlive,connectTimeoutMS,socketTimeoutMS,reconnectTries,reconnectInterval,ha,haInterval,replicaSet,secondaryAcceptableLatencyMS,acceptableLatencyMS,connectWithNoPrimary,authSource,w,wtimeout,j,forceServerObjectId,serializeFunctions,ignoreUndefined,raw,promoteLongs,bufferMaxEntries,readPreference,pkFactory,promiseLibrary,readConcern,maxStalenessSeconds,loggerLevel,logger,promoteValues,promoteBuffers,promoteLongs,domainsEnabled,keepAliveInitialDelay,checkServerIdentity,validateOptions]
+[2017-05-16 17:51:52.645] [WARN] console - the server/replset/mongos options are deprecated, all their options are supported at the top level of the options object [poolSize,ssl,sslValidate,sslCA,sslCert,sslKey,sslPass,sslCRL,autoReconnect,noDelay,keepAlive,connectTimeoutMS,socketTimeoutMS,reconnectTries,reconnectInterval,ha,haInterval,replicaSet,secondaryAcceptableLatencyMS,acceptableLatencyMS,connectWithNoPrimary,authSource,w,wtimeout,j,forceServerObjectId,serializeFunctions,ignoreUndefined,raw,promoteLongs,bufferMaxEntries,readPreference,pkFactory,promiseLibrary,readConcern,maxStalenessSeconds,loggerLevel,logger,promoteValues,promoteBuffers,promoteLongs,domainsEnabled,keepAliveInitialDelay,checkServerIdentity,validateOptions]
+[2017-05-16 18:28:20.490] [ERROR] routers.auth - { MongoError: Topology was destroyed
+    at nextFunction (/home/jeffwang/fe/xform/node_modules/mongodb-core/lib/cursor.js:540:25)
+    at Cursor.next [as _next] (/home/jeffwang/fe/xform/node_modules/mongodb-core/lib/cursor.js:692:3)
+    at nextObject (/home/jeffwang/fe/xform/node_modules/mongodb/lib/cursor.js:679:8)
+    at Cursor.next (/home/jeffwang/fe/xform/node_modules/mongodb/lib/cursor.js:269:12)
+    at findOne (/home/jeffwang/fe/xform/node_modules/mongodb/lib/collection.js:1415:10)
+    at /home/jeffwang/fe/xform/node_modules/mongodb/lib/collection.js:1405:5
+    at Collection.findOne (/home/jeffwang/fe/xform/node_modules/mongodb/lib/collection.js:1404:10)
+    at db.then.base (/home/jeffwang/fe/xform/db/user.js:25:4)
+    at process._tickCallback (internal/process/next_tick.js:103:7) name: 'MongoError', message: 'Topology was destroyed' }
+[2017-05-16 18:28:44.062] [ERROR] routers.auth - { MongoError: Topology was destroyed
+    at nextFunction (/home/jeffwang/fe/xform/node_modules/mongodb-core/lib/cursor.js:540:25)
+    at Cursor.next [as _next] (/home/jeffwang/fe/xform/node_modules/mongodb-core/lib/cursor.js:692:3)
+    at nextObject (/home/jeffwang/fe/xform/node_modules/mongodb/lib/cursor.js:679:8)
+    at Cursor.next (/home/jeffwang/fe/xform/node_modules/mongodb/lib/cursor.js:269:12)
+    at findOne (/home/jeffwang/fe/xform/node_modules/mongodb/lib/collection.js:1415:10)
+    at /home/jeffwang/fe/xform/node_modules/mongodb/lib/collection.js:1405:5
+    at Collection.findOne (/home/jeffwang/fe/xform/node_modules/mongodb/lib/collection.js:1404:10)
+    at db.then.base (/home/jeffwang/fe/xform/db/user.js:25:4)
+    at process._tickCallback (internal/process/next_tick.js:103:7) name: 'MongoError', message: 'Topology was destroyed' }
+[2017-05-16 22:12:31.884] [ERROR] app - ReferenceError: prop is not defined
+    at /home/jeffwang/fe/xform/routes/user/index.js:50:25
+    at Layer.handle [as handle_request] (/home/jeffwang/fe/xform/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/jeffwang/fe/xform/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/jeffwang/fe/xform/node_modules/express/lib/router/layer.js:95:5)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:281:22
+    at param (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:275:10)
+[2017-05-16 22:13:04.113] [ERROR] app - ReferenceError: prop is not defined
+    at /home/jeffwang/fe/xform/routes/user/index.js:50:25
+    at Layer.handle [as handle_request] (/home/jeffwang/fe/xform/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/jeffwang/fe/xform/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/jeffwang/fe/xform/node_modules/express/lib/router/layer.js:95:5)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:281:22
+    at param (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:410:3)
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:275:10)
+[2017-05-16 22:13:56.120] [ERROR] routers.user - Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:356:11)
+    at ServerResponse.header (/home/jeffwang/fe/xform/node_modules/express/lib/response.js:725:10)
+    at ServerResponse.send (/home/jeffwang/fe/xform/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.json (/home/jeffwang/fe/xform/node_modules/express/lib/response.js:256:15)
+    at User.updateOne.then (/home/jeffwang/fe/xform/routes/user/index.js:60:9)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+[2017-05-16 22:13:56.126] [ERROR] console - (node:24689) UnhandledPromiseRejectionWarning: Unhandled promise rejection (rejection id: 1): Error: Can't set headers after they are sent.
+[2017-05-16 22:39:00.833] [ERROR] console - Port 3000 is already in use
+[2017-05-16 22:48:45.486] [ERROR] routers.user - Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters
+    at new ObjectID (/home/jeffwang/fe/xform/node_modules/bson/lib/bson/objectid.js:50:11)
+    at ObjectID (/home/jeffwang/fe/xform/node_modules/bson/lib/bson/objectid.js:31:42)
+    at db.then.base (/home/jeffwang/fe/xform/db/form.js:23:20)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+[2017-05-16 23:20:06.314] [ERROR] routers.form - Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters
+    at new ObjectID (/home/jeffwang/fe/xform/node_modules/bson/lib/bson/objectid.js:50:11)
+    at ObjectID (/home/jeffwang/fe/xform/node_modules/bson/lib/bson/objectid.js:31:42)
+    at db.then (/home/jeffwang/fe/xform/routes/form/index.js:91:23)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+[2017-05-16 23:42:47.264] [ERROR] app - TypeError: Cannot read property 'toString' of undefined
+    at Form.updateOne (/home/jeffwang/fe/xform/db/form.js:18:32)
+    at router.post (/home/jeffwang/fe/xform/routes/form/index.js:110:8)
+    at Layer.handle [as handle_request] (/home/jeffwang/fe/xform/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/jeffwang/fe/xform/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/jeffwang/fe/xform/node_modules/express/lib/router/layer.js:95:5)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:281:22
+    at param (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:410:3)
+[2017-05-16 23:44:02.087] [ERROR] app - TypeError: Form.collection(...).updateOne is not a function
+    at Form.updateOne (/home/jeffwang/fe/xform/db/form.js:18:4)
+    at router.post (/home/jeffwang/fe/xform/routes/form/index.js:110:8)
+    at Layer.handle [as handle_request] (/home/jeffwang/fe/xform/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/jeffwang/fe/xform/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/jeffwang/fe/xform/node_modules/express/lib/router/layer.js:95:5)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:281:22
+    at param (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:354:14)
+    at param (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:365:14)
+    at Function.process_params (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:410:3)
+[2017-05-16 23:57:45.886] [ERROR] app - { Error: Not Found
+    at /home/jeffwang/fe/xform/app.js:44:13
+    at Layer.handle [as handle_request] (/home/jeffwang/fe/xform/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:317:13)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:275:10)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:635:15
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:260:14)
+    at Function.handle (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:47:12) status: 404 }
+[2017-05-16 23:58:56.737] [ERROR] app - { Error: Not Found
+    at /home/jeffwang/fe/xform/app.js:44:13
+    at Layer.handle [as handle_request] (/home/jeffwang/fe/xform/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:317:13)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:275:10)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:635:15
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:260:14)
+    at Function.handle (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:47:12) status: 404 }

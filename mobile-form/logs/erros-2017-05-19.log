@@ -1,0 +1,1042 @@
+[2017-05-19 00:02:41.226] [ERROR] app - { Error: Not Found
+    at /home/jeffwang/fe/xform/app.js:52:13
+    at Layer.handle [as handle_request] (/home/jeffwang/fe/xform/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:317:13)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:275:10)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:635:15
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:260:14)
+    at Function.handle (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:47:12) status: 404 }
+[2017-05-19 00:02:44.927] [ERROR] app - { Error: Not Found
+    at /home/jeffwang/fe/xform/app.js:52:13
+    at Layer.handle [as handle_request] (/home/jeffwang/fe/xform/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:317:13)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:275:10)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:635:15
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:260:14)
+    at Function.handle (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:47:12) status: 404 }
+[2017-05-19 00:02:57.814] [ERROR] app - { Error: Not Found
+    at /home/jeffwang/fe/xform/app.js:52:13
+    at Layer.handle [as handle_request] (/home/jeffwang/fe/xform/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:317:13)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:275:10)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:635:15
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:260:14)
+    at Function.handle (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:47:12) status: 404 }
+[2017-05-19 00:03:25.252] [ERROR] app - { Error: Not Found
+    at /home/jeffwang/fe/xform/app.js:52:13
+    at Layer.handle [as handle_request] (/home/jeffwang/fe/xform/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:317:13)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:275:10)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:635:15
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:260:14)
+    at Function.handle (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:47:12) status: 404 }
+[2017-05-19 00:13:41.054] [ERROR] app - { Error: Not Found
+    at /home/jeffwang/fe/xform/app.js:52:13
+    at Layer.handle [as handle_request] (/home/jeffwang/fe/xform/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:317:13)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:275:10)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:635:15
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:260:14)
+    at Function.handle (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:47:12) status: 404 }
+[2017-05-19 00:15:22.766] [ERROR] app - { Error: Not Found
+    at /home/jeffwang/fe/xform/app.js:52:13
+    at Layer.handle [as handle_request] (/home/jeffwang/fe/xform/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:317:13)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:275:10)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:635:15
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:260:14)
+    at Function.handle (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:47:12) status: 404 }
+[2017-05-19 00:17:01.184] [ERROR] app - { Error: Not Found
+    at /home/jeffwang/fe/xform/app.js:52:13
+    at Layer.handle [as handle_request] (/home/jeffwang/fe/xform/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:317:13)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:275:10)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:635:15
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:260:14)
+    at Function.handle (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:47:12) status: 404 }
+[2017-05-19 00:46:41.120] [ERROR] app - ReferenceError: arr is not defined
+    at Object.keys.forEach (/home/jeffwang/fe/xform/routes/admin/index.js:28:7)
+    at Array.forEach (native)
+    at route.post (/home/jeffwang/fe/xform/routes/admin/index.js:26:25)
+    at Layer.handle [as handle_request] (/home/jeffwang/fe/xform/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/jeffwang/fe/xform/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/jeffwang/fe/xform/node_modules/express/lib/router/layer.js:95:5)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:275:10)
+[2017-05-19 00:47:10.308] [ERROR] console - (node:42774) UnhandledPromiseRejectionWarning: Unhandled promise rejection (rejection id: 1): MongoError: skip requires an integer
+[2017-05-19 00:47:10.311] [ERROR] app - TypeError: Cannot read property '_id' of undefined
+    at User.count (/home/jeffwang/fe/xform/db/user.js:36:12)
+    at route.post (/home/jeffwang/fe/xform/routes/admin/index.js:32:30)
+    at Layer.handle [as handle_request] (/home/jeffwang/fe/xform/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/jeffwang/fe/xform/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/jeffwang/fe/xform/node_modules/express/lib/router/layer.js:95:5)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:174:3)
+[2017-05-19 00:47:46.164] [ERROR] console - (node:42849) UnhandledPromiseRejectionWarning: Unhandled promise rejection (rejection id: 1): MongoError: skip requires an integer
+[2017-05-19 00:47:46.174] [ERROR] app - ReferenceError: all is not defined
+    at route.post (/home/jeffwang/fe/xform/routes/admin/index.js:33:11)
+    at Layer.handle [as handle_request] (/home/jeffwang/fe/xform/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/jeffwang/fe/xform/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/jeffwang/fe/xform/node_modules/express/lib/router/layer.js:95:5)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:47:12)
+[2017-05-19 00:48:23.847] [ERROR] console - (node:42920) UnhandledPromiseRejectionWarning: Unhandled promise rejection (rejection id: 1): MongoError: skip requires an integer
+[2017-05-19 00:48:23.857] [ERROR] app - ReferenceError: all is not defined
+    at route.post (/home/jeffwang/fe/xform/routes/admin/index.js:33:11)
+    at Layer.handle [as handle_request] (/home/jeffwang/fe/xform/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/jeffwang/fe/xform/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/jeffwang/fe/xform/node_modules/express/lib/router/layer.js:95:5)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:47:12)
+[2017-05-19 00:48:52.330] [ERROR] routers.admin - TypeError: (var)[Symbol.iterator] is not a function
+    at Function.all (native)
+    at route.post (/home/jeffwang/fe/xform/routes/admin/index.js:33:11)
+    at Layer.handle [as handle_request] (/home/jeffwang/fe/xform/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/jeffwang/fe/xform/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/jeffwang/fe/xform/node_modules/express/lib/router/layer.js:95:5)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:174:3)
+[2017-05-19 00:48:52.363] [ERROR] console - (node:42996) UnhandledPromiseRejectionWarning: Unhandled promise rejection (rejection id: 2): MongoError: skip requires an integer
+[2017-05-19 00:49:26.944] [ERROR] routers.admin - { MongoError: skip requires an integer
+    at Function.MongoError.create (/home/jeffwang/fe/xform/node_modules/mongodb-core/lib/error.js:31:11)
+    at Cursor.skip (/home/jeffwang/fe/xform/node_modules/mongodb/lib/cursor.js:631:49)
+    at User.collection.dao (/home/jeffwang/fe/xform/db/user.js:45:4)
+    at db.then.base (/home/jeffwang/fe/xform/db/user.js:9:43)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+  name: 'MongoError',
+  message: 'skip requires an integer',
+  driver: true }
+[2017-05-19 00:51:06.102] [ERROR] routers.admin - { MongoError: skip requires an integer
+    at Function.MongoError.create (/home/jeffwang/fe/xform/node_modules/mongodb-core/lib/error.js:31:11)
+    at Cursor.skip (/home/jeffwang/fe/xform/node_modules/mongodb/lib/cursor.js:631:49)
+    at User.collection.dao (/home/jeffwang/fe/xform/db/user.js:45:4)
+    at db.then.base (/home/jeffwang/fe/xform/db/user.js:9:43)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+  name: 'MongoError',
+  message: 'skip requires an integer',
+  driver: true }
+[2017-05-19 00:52:12.995] [ERROR] app - { Error: Not Found
+    at /home/jeffwang/fe/xform/app.js:52:13
+    at Layer.handle [as handle_request] (/home/jeffwang/fe/xform/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:317:13)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:275:10)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:635:15
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:260:14)
+    at Function.handle (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:47:12) status: 404 }
+[2017-05-19 00:52:16.511] [ERROR] app - { Error: Not Found
+    at /home/jeffwang/fe/xform/app.js:52:13
+    at Layer.handle [as handle_request] (/home/jeffwang/fe/xform/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:317:13)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:275:10)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:635:15
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:260:14)
+    at Function.handle (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:47:12) status: 404 }
+[2017-05-19 00:52:16.849] [ERROR] app - { Error: Not Found
+    at /home/jeffwang/fe/xform/app.js:52:13
+    at Layer.handle [as handle_request] (/home/jeffwang/fe/xform/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:317:13)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:275:10)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:635:15
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:260:14)
+    at Function.handle (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:47:12) status: 404 }
+[2017-05-19 00:52:17.374] [ERROR] app - { Error: Not Found
+    at /home/jeffwang/fe/xform/app.js:52:13
+    at Layer.handle [as handle_request] (/home/jeffwang/fe/xform/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:317:13)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:275:10)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:635:15
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:260:14)
+    at Function.handle (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:47:12) status: 404 }
+[2017-05-19 00:52:17.823] [ERROR] app - { Error: Not Found
+    at /home/jeffwang/fe/xform/app.js:52:13
+    at Layer.handle [as handle_request] (/home/jeffwang/fe/xform/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:317:13)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:275:10)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:635:15
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:260:14)
+    at Function.handle (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:47:12) status: 404 }
+[2017-05-19 00:52:18.159] [ERROR] app - { Error: Not Found
+    at /home/jeffwang/fe/xform/app.js:52:13
+    at Layer.handle [as handle_request] (/home/jeffwang/fe/xform/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:317:13)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:275:10)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:635:15
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:260:14)
+    at Function.handle (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:47:12) status: 404 }
+[2017-05-19 00:52:18.728] [ERROR] app - { Error: Not Found
+    at /home/jeffwang/fe/xform/app.js:52:13
+    at Layer.handle [as handle_request] (/home/jeffwang/fe/xform/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:317:13)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:275:10)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:635:15
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:260:14)
+    at Function.handle (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:47:12) status: 404 }
+[2017-05-19 00:52:19.204] [ERROR] app - { Error: Not Found
+    at /home/jeffwang/fe/xform/app.js:52:13
+    at Layer.handle [as handle_request] (/home/jeffwang/fe/xform/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:317:13)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:275:10)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:635:15
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:260:14)
+    at Function.handle (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:47:12) status: 404 }
+[2017-05-19 00:52:19.358] [ERROR] app - { Error: Not Found
+    at /home/jeffwang/fe/xform/app.js:52:13
+    at Layer.handle [as handle_request] (/home/jeffwang/fe/xform/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:317:13)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:275:10)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:635:15
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:260:14)
+    at Function.handle (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:47:12) status: 404 }
+[2017-05-19 00:52:19.554] [ERROR] app - { Error: Not Found
+    at /home/jeffwang/fe/xform/app.js:52:13
+    at Layer.handle [as handle_request] (/home/jeffwang/fe/xform/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:317:13)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:275:10)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:635:15
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:260:14)
+    at Function.handle (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:47:12) status: 404 }
+[2017-05-19 00:52:22.005] [ERROR] app - { Error: Not Found
+    at /home/jeffwang/fe/xform/app.js:52:13
+    at Layer.handle [as handle_request] (/home/jeffwang/fe/xform/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:317:13)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:275:10)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:635:15
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:260:14)
+    at Function.handle (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:47:12) status: 404 }
+[2017-05-19 00:52:48.905] [ERROR] app - { Error: Not Found
+    at /home/jeffwang/fe/xform/app.js:52:13
+    at Layer.handle [as handle_request] (/home/jeffwang/fe/xform/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:317:13)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:275:10)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:635:15
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:260:14)
+    at Function.handle (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:47:12) status: 404 }
+[2017-05-19 00:52:53.406] [ERROR] app - { Error: Not Found
+    at /home/jeffwang/fe/xform/app.js:52:13
+    at Layer.handle [as handle_request] (/home/jeffwang/fe/xform/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:317:13)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:275:10)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:635:15
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:260:14)
+    at Function.handle (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:47:12) status: 404 }
+[2017-05-19 00:53:31.238] [ERROR] app - { Error: Not Found
+    at /home/jeffwang/fe/xform/app.js:52:13
+    at Layer.handle [as handle_request] (/home/jeffwang/fe/xform/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:317:13)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:275:10)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:635:15
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:260:14)
+    at Function.handle (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:47:12) status: 404 }
+[2017-05-19 00:53:34.312] [ERROR] app - { Error: Not Found
+    at /home/jeffwang/fe/xform/app.js:52:13
+    at Layer.handle [as handle_request] (/home/jeffwang/fe/xform/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:317:13)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:275:10)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:635:15
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:260:14)
+    at Function.handle (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:47:12) status: 404 }
+[2017-05-19 00:53:34.713] [ERROR] app - { Error: Not Found
+    at /home/jeffwang/fe/xform/app.js:52:13
+    at Layer.handle [as handle_request] (/home/jeffwang/fe/xform/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:317:13)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:275:10)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:635:15
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:260:14)
+    at Function.handle (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:47:12) status: 404 }
+[2017-05-19 00:53:35.104] [ERROR] app - { Error: Not Found
+    at /home/jeffwang/fe/xform/app.js:52:13
+    at Layer.handle [as handle_request] (/home/jeffwang/fe/xform/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:317:13)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:275:10)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:635:15
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:260:14)
+    at Function.handle (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:47:12) status: 404 }
+[2017-05-19 00:53:54.408] [ERROR] app - { Error: Not Found
+    at /home/jeffwang/fe/xform/app.js:52:13
+    at Layer.handle [as handle_request] (/home/jeffwang/fe/xform/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:317:13)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:275:10)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:635:15
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:260:14)
+    at Function.handle (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:47:12) status: 404 }
+[2017-05-19 00:53:59.656] [ERROR] app - { Error: Not Found
+    at /home/jeffwang/fe/xform/app.js:52:13
+    at Layer.handle [as handle_request] (/home/jeffwang/fe/xform/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:317:13)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:275:10)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:635:15
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:260:14)
+    at Function.handle (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:47:12) status: 404 }
+[2017-05-19 00:54:08.492] [ERROR] app - { Error: Not Found
+    at /home/jeffwang/fe/xform/app.js:52:13
+    at Layer.handle [as handle_request] (/home/jeffwang/fe/xform/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:317:13)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:275:10)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:635:15
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:260:14)
+    at Function.handle (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:47:12) status: 404 }
+[2017-05-19 00:55:18.051] [ERROR] app - { Error: Not Found
+    at /home/jeffwang/fe/xform/app.js:52:13
+    at Layer.handle [as handle_request] (/home/jeffwang/fe/xform/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:317:13)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:275:10)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:635:15
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:260:14)
+    at Function.handle (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:47:12) status: 404 }
+[2017-05-19 00:55:22.874] [ERROR] app - { Error: Not Found
+    at /home/jeffwang/fe/xform/app.js:52:13
+    at Layer.handle [as handle_request] (/home/jeffwang/fe/xform/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:317:13)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:275:10)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:635:15
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:260:14)
+    at Function.handle (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:47:12) status: 404 }
+[2017-05-19 00:55:30.783] [ERROR] app - { Error: Not Found
+    at /home/jeffwang/fe/xform/app.js:52:13
+    at Layer.handle [as handle_request] (/home/jeffwang/fe/xform/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:317:13)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:275:10)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:635:15
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:260:14)
+    at Function.handle (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:47:12) status: 404 }
+[2017-05-19 00:55:35.810] [ERROR] app - { Error: Not Found
+    at /home/jeffwang/fe/xform/app.js:52:13
+    at Layer.handle [as handle_request] (/home/jeffwang/fe/xform/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:317:13)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:275:10)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:635:15
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:260:14)
+    at Function.handle (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:47:12) status: 404 }
+[2017-05-19 00:55:37.421] [ERROR] app - { Error: Not Found
+    at /home/jeffwang/fe/xform/app.js:52:13
+    at Layer.handle [as handle_request] (/home/jeffwang/fe/xform/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:317:13)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:275:10)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:635:15
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:260:14)
+    at Function.handle (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:47:12) status: 404 }
+[2017-05-19 00:55:38.554] [ERROR] app - { Error: Not Found
+    at /home/jeffwang/fe/xform/app.js:52:13
+    at Layer.handle [as handle_request] (/home/jeffwang/fe/xform/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:317:13)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:275:10)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:635:15
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:260:14)
+    at Function.handle (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:47:12) status: 404 }
+[2017-05-19 00:55:40.888] [ERROR] app - { Error: Not Found
+    at /home/jeffwang/fe/xform/app.js:52:13
+    at Layer.handle [as handle_request] (/home/jeffwang/fe/xform/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:317:13)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:275:10)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:635:15
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:260:14)
+    at Function.handle (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:47:12) status: 404 }
+[2017-05-19 00:55:43.977] [ERROR] app - { Error: Not Found
+    at /home/jeffwang/fe/xform/app.js:52:13
+    at Layer.handle [as handle_request] (/home/jeffwang/fe/xform/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:317:13)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:275:10)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:635:15
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:260:14)
+    at Function.handle (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:47:12) status: 404 }
+[2017-05-19 01:02:44.290] [ERROR] app - { Error: Not Found
+    at /home/jeffwang/fe/xform/app.js:52:13
+    at Layer.handle [as handle_request] (/home/jeffwang/fe/xform/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:317:13)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:275:10)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:635:15
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:260:14)
+    at Function.handle (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:47:12) status: 404 }
+[2017-05-19 01:04:00.321] [ERROR] app - { Error: Not Found
+    at /home/jeffwang/fe/xform/app.js:52:13
+    at Layer.handle [as handle_request] (/home/jeffwang/fe/xform/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:317:13)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:275:10)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:635:15
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:260:14)
+    at Function.handle (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:47:12) status: 404 }
+[2017-05-19 01:24:10.942] [ERROR] app - { Error: Not Found
+    at /home/jeffwang/fe/xform/app.js:52:13
+    at Layer.handle [as handle_request] (/home/jeffwang/fe/xform/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:317:13)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:275:10)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:635:15
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:260:14)
+    at Function.handle (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:47:12) status: 404 }
+[2017-05-19 01:48:16.435] [ERROR] app - { Error: Not Found
+    at /home/jeffwang/fe/xform/app.js:52:13
+    at Layer.handle [as handle_request] (/home/jeffwang/fe/xform/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:317:13)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:275:10)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:635:15
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:260:14)
+    at Function.handle (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:47:12) status: 404 }
+[2017-05-19 02:00:44.564] [ERROR] app - { Error: Not Found
+    at /home/jeffwang/fe/xform/app.js:52:13
+    at Layer.handle [as handle_request] (/home/jeffwang/fe/xform/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:317:13)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:275:10)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:635:15
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:260:14)
+    at Function.handle (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:47:12) status: 404 }
+[2017-05-19 02:02:45.061] [ERROR] app - { Error: Not Found
+    at /home/jeffwang/fe/xform/app.js:52:13
+    at Layer.handle [as handle_request] (/home/jeffwang/fe/xform/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:317:13)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:275:10)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:635:15
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:260:14)
+    at Function.handle (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:47:12) status: 404 }
+[2017-05-19 02:08:15.589] [ERROR] app - { Error: Not Found
+    at /home/jeffwang/fe/xform/app.js:52:13
+    at Layer.handle [as handle_request] (/home/jeffwang/fe/xform/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:317:13)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:275:10)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:635:15
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:260:14)
+    at Function.handle (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:47:12) status: 404 }
+[2017-05-19 02:09:23.988] [ERROR] app - { Error: Not Found
+    at /home/jeffwang/fe/xform/app.js:52:13
+    at Layer.handle [as handle_request] (/home/jeffwang/fe/xform/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:317:13)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:275:10)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:635:15
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:260:14)
+    at Function.handle (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:47:12) status: 404 }
+[2017-05-19 02:09:44.391] [ERROR] app - { Error: Not Found
+    at /home/jeffwang/fe/xform/app.js:52:13
+    at Layer.handle [as handle_request] (/home/jeffwang/fe/xform/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:317:13)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:275:10)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:635:15
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:260:14)
+    at Function.handle (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:47:12) status: 404 }
+[2017-05-19 02:10:15.774] [ERROR] app - { Error: Not Found
+    at /home/jeffwang/fe/xform/app.js:52:13
+    at Layer.handle [as handle_request] (/home/jeffwang/fe/xform/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:317:13)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:275:10)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:635:15
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:260:14)
+    at Function.handle (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:47:12) status: 404 }
+[2017-05-19 02:45:08.482] [ERROR] routers.admin - { MongoError: Modifiers operate on fields but we found type null instead. For example: {$mod: {<field>: ...}} not {$set: null}
+    at Function.MongoError.create (/home/jeffwang/fe/xform/node_modules/mongodb-core/lib/error.js:31:11)
+    at toError (/home/jeffwang/fe/xform/node_modules/mongodb/lib/utils.js:139:22)
+    at /home/jeffwang/fe/xform/node_modules/mongodb/lib/collection.js:1060:67
+    at /home/jeffwang/fe/xform/node_modules/mongodb-core/lib/connection/pool.js:461:18
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+  name: 'MongoError',
+  message: 'Modifiers operate on fields but we found type null instead. For example: {$mod: {<field>: ...}} not {$set: null}',
+  driver: true,
+  index: 0,
+  code: 9,
+  errmsg: 'Modifiers operate on fields but we found type null instead. For example: {$mod: {<field>: ...}} not {$set: null}' }
+[2017-05-19 02:45:51.405] [ERROR] routers.admin - { MongoError: Modifiers operate on fields but we found type null instead. For example: {$mod: {<field>: ...}} not {$set: null}
+    at Function.MongoError.create (/home/jeffwang/fe/xform/node_modules/mongodb-core/lib/error.js:31:11)
+    at toError (/home/jeffwang/fe/xform/node_modules/mongodb/lib/utils.js:139:22)
+    at /home/jeffwang/fe/xform/node_modules/mongodb/lib/collection.js:1060:67
+    at /home/jeffwang/fe/xform/node_modules/mongodb-core/lib/connection/pool.js:461:18
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+  name: 'MongoError',
+  message: 'Modifiers operate on fields but we found type null instead. For example: {$mod: {<field>: ...}} not {$set: null}',
+  driver: true,
+  index: 0,
+  code: 9,
+  errmsg: 'Modifiers operate on fields but we found type null instead. For example: {$mod: {<field>: ...}} not {$set: null}' }
+[2017-05-19 02:48:53.942] [ERROR] routers.admin - { MongoError: Modifiers operate on fields but we found type null instead. For example: {$mod: {<field>: ...}} not {$set: null}
+    at Function.MongoError.create (/home/jeffwang/fe/xform/node_modules/mongodb-core/lib/error.js:31:11)
+    at toError (/home/jeffwang/fe/xform/node_modules/mongodb/lib/utils.js:139:22)
+    at /home/jeffwang/fe/xform/node_modules/mongodb/lib/collection.js:1060:67
+    at /home/jeffwang/fe/xform/node_modules/mongodb-core/lib/connection/pool.js:461:18
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+  name: 'MongoError',
+  message: 'Modifiers operate on fields but we found type null instead. For example: {$mod: {<field>: ...}} not {$set: null}',
+  driver: true,
+  index: 0,
+  code: 9,
+  errmsg: 'Modifiers operate on fields but we found type null instead. For example: {$mod: {<field>: ...}} not {$set: null}' }
+[2017-05-19 02:49:35.338] [ERROR] routers.admin - { MongoError: Modifiers operate on fields but we found type null instead. For example: {$mod: {<field>: ...}} not {$set: null}
+    at Function.MongoError.create (/home/jeffwang/fe/xform/node_modules/mongodb-core/lib/error.js:31:11)
+    at toError (/home/jeffwang/fe/xform/node_modules/mongodb/lib/utils.js:139:22)
+    at /home/jeffwang/fe/xform/node_modules/mongodb/lib/collection.js:1060:67
+    at /home/jeffwang/fe/xform/node_modules/mongodb-core/lib/connection/pool.js:461:18
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+  name: 'MongoError',
+  message: 'Modifiers operate on fields but we found type null instead. For example: {$mod: {<field>: ...}} not {$set: null}',
+  driver: true,
+  index: 0,
+  code: 9,
+  errmsg: 'Modifiers operate on fields but we found type null instead. For example: {$mod: {<field>: ...}} not {$set: null}' }
+[2017-05-19 02:51:38.877] [ERROR] routers.admin - { MongoError: Modifiers operate on fields but we found type null instead. For example: {$mod: {<field>: ...}} not {$set: null}
+    at Function.MongoError.create (/home/jeffwang/fe/xform/node_modules/mongodb-core/lib/error.js:31:11)
+    at toError (/home/jeffwang/fe/xform/node_modules/mongodb/lib/utils.js:139:22)
+    at /home/jeffwang/fe/xform/node_modules/mongodb/lib/collection.js:1060:67
+    at /home/jeffwang/fe/xform/node_modules/mongodb-core/lib/connection/pool.js:461:18
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+  name: 'MongoError',
+  message: 'Modifiers operate on fields but we found type null instead. For example: {$mod: {<field>: ...}} not {$set: null}',
+  driver: true,
+  index: 0,
+  code: 9,
+  errmsg: 'Modifiers operate on fields but we found type null instead. For example: {$mod: {<field>: ...}} not {$set: null}' }
+[2017-05-19 02:56:35.297] [ERROR] app - TypeError: Cannot convert undefined or null to object
+    at route.post (/home/jeffwang/fe/xform/routes/admin/index.js:60:10)
+    at Layer.handle [as handle_request] (/home/jeffwang/fe/xform/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/jeffwang/fe/xform/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/jeffwang/fe/xform/node_modules/express/lib/router/layer.js:95:5)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:47:12)
+[2017-05-19 02:57:16.327] [ERROR] app - TypeError: Cannot convert undefined or null to object
+    at route.post (/home/jeffwang/fe/xform/routes/admin/index.js:60:10)
+    at Layer.handle [as handle_request] (/home/jeffwang/fe/xform/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/jeffwang/fe/xform/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/jeffwang/fe/xform/node_modules/express/lib/router/layer.js:95:5)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:47:12)
+[2017-05-19 03:14:15.426] [ERROR] app - { Error: Not Found
+    at /home/jeffwang/fe/xform/app.js:52:13
+    at Layer.handle [as handle_request] (/home/jeffwang/fe/xform/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:317:13)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:275:10)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:635:15
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:260:14)
+    at Function.handle (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:47:12) status: 404 }
+[2017-05-19 03:16:39.249] [ERROR] app - { Error: Not Found
+    at /home/jeffwang/fe/xform/app.js:52:13
+    at Layer.handle [as handle_request] (/home/jeffwang/fe/xform/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:317:13)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:275:10)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:635:15
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:260:14)
+    at Function.handle (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:47:12) status: 404 }
+[2017-05-19 03:17:48.131] [ERROR] app - { Error: Not Found
+    at /home/jeffwang/fe/xform/app.js:52:13
+    at Layer.handle [as handle_request] (/home/jeffwang/fe/xform/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:317:13)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:275:10)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:635:15
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:260:14)
+    at Function.handle (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:47:12) status: 404 }
+[2017-05-19 03:30:13.639] [ERROR] routers.admin - { MongoError: skip requires an integer
+    at Function.MongoError.create (/home/jeffwang/fe/xform/node_modules/mongodb-core/lib/error.js:31:11)
+    at Cursor.skip (/home/jeffwang/fe/xform/node_modules/mongodb/lib/cursor.js:631:49)
+    at Admin.collection.dao (/home/jeffwang/fe/xform/db/admin.js:36:4)
+    at db.then.base (/home/jeffwang/fe/xform/db/admin.js:9:44)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+  name: 'MongoError',
+  message: 'skip requires an integer',
+  driver: true }
+[2017-05-19 03:54:15.770] [ERROR] app - TypeError: res.redirec is not a function
+    at module.exports (/home/jeffwang/fe/xform/routes/admin/session.js:6:9)
+    at Layer.handle [as handle_request] (/home/jeffwang/fe/xform/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:317:13)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/home/jeffwang/fe/xform/node_modules/serve-static/index.js:121:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (/home/jeffwang/fe/xform/node_modules/send/index.js:282:17)
+[2017-05-19 03:54:37.182] [ERROR] app - Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters
+    at new ObjectID (/home/jeffwang/fe/xform/node_modules/bson/lib/bson/objectid.js:50:11)
+    at ObjectID (/home/jeffwang/fe/xform/node_modules/bson/lib/bson/objectid.js:31:42)
+    at Form.findOne (/home/jeffwang/fe/xform/db/form.js:9:32)
+    at module.exports (/home/jeffwang/fe/xform/routes/public/api.js:6:8)
+    at Layer.handle [as handle_request] (/home/jeffwang/fe/xform/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/jeffwang/fe/xform/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/jeffwang/fe/xform/node_modules/express/lib/router/layer.js:95:5)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:281:22
+    at param (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:354:14)
+[2017-05-19 03:55:32.042] [ERROR] app - { Error: Not Found
+    at /home/jeffwang/fe/xform/app.js:62:13
+    at Layer.handle [as handle_request] (/home/jeffwang/fe/xform/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:317:13)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/home/jeffwang/fe/xform/node_modules/serve-static/index.js:121:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (/home/jeffwang/fe/xform/node_modules/send/index.js:282:17) status: 404 }
+[2017-05-19 03:55:32.086] [ERROR] app - { Error: Not Found
+    at /home/jeffwang/fe/xform/app.js:62:13
+    at Layer.handle [as handle_request] (/home/jeffwang/fe/xform/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:317:13)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/home/jeffwang/fe/xform/node_modules/serve-static/index.js:121:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (/home/jeffwang/fe/xform/node_modules/send/index.js:282:17) status: 404 }
+[2017-05-19 03:55:32.095] [ERROR] app - { Error: Not Found
+    at /home/jeffwang/fe/xform/app.js:62:13
+    at Layer.handle [as handle_request] (/home/jeffwang/fe/xform/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:317:13)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/home/jeffwang/fe/xform/node_modules/serve-static/index.js:121:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (/home/jeffwang/fe/xform/node_modules/send/index.js:282:17) status: 404 }
+[2017-05-19 03:55:32.100] [ERROR] app - { Error: Not Found
+    at /home/jeffwang/fe/xform/app.js:62:13
+    at Layer.handle [as handle_request] (/home/jeffwang/fe/xform/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:317:13)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/home/jeffwang/fe/xform/node_modules/serve-static/index.js:121:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (/home/jeffwang/fe/xform/node_modules/send/index.js:282:17) status: 404 }
+[2017-05-19 03:55:32.137] [ERROR] app - { Error: Not Found
+    at /home/jeffwang/fe/xform/app.js:62:13
+    at Layer.handle [as handle_request] (/home/jeffwang/fe/xform/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:317:13)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/home/jeffwang/fe/xform/node_modules/serve-static/index.js:121:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (/home/jeffwang/fe/xform/node_modules/send/index.js:282:17) status: 404 }
+[2017-05-19 03:55:35.022] [ERROR] app - { Error: Not Found
+    at /home/jeffwang/fe/xform/app.js:62:13
+    at Layer.handle [as handle_request] (/home/jeffwang/fe/xform/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:317:13)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/home/jeffwang/fe/xform/node_modules/serve-static/index.js:121:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (/home/jeffwang/fe/xform/node_modules/send/index.js:282:17) status: 404 }
+[2017-05-19 03:55:35.056] [ERROR] app - { Error: Not Found
+    at /home/jeffwang/fe/xform/app.js:62:13
+    at Layer.handle [as handle_request] (/home/jeffwang/fe/xform/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:317:13)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/home/jeffwang/fe/xform/node_modules/serve-static/index.js:121:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (/home/jeffwang/fe/xform/node_modules/send/index.js:282:17) status: 404 }
+[2017-05-19 03:56:33.817] [ERROR] app - Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters
+    at new ObjectID (/home/jeffwang/fe/xform/node_modules/bson/lib/bson/objectid.js:50:11)
+    at ObjectID (/home/jeffwang/fe/xform/node_modules/bson/lib/bson/objectid.js:31:42)
+    at Form.findOne (/home/jeffwang/fe/xform/db/form.js:9:32)
+    at module.exports (/home/jeffwang/fe/xform/routes/public/api.js:6:8)
+    at Layer.handle [as handle_request] (/home/jeffwang/fe/xform/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/jeffwang/fe/xform/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/jeffwang/fe/xform/node_modules/express/lib/router/layer.js:95:5)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:281:22
+    at param (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:354:14)
+[2017-05-19 03:56:43.703] [ERROR] app - TypeError: res.redirec is not a function
+    at module.exports (/home/jeffwang/fe/xform/routes/admin/session.js:6:9)
+    at Layer.handle [as handle_request] (/home/jeffwang/fe/xform/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:317:13)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/home/jeffwang/fe/xform/node_modules/serve-static/index.js:121:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (/home/jeffwang/fe/xform/node_modules/send/index.js:282:17)
+[2017-05-19 03:57:03.111] [ERROR] app - Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters
+    at new ObjectID (/home/jeffwang/fe/xform/node_modules/bson/lib/bson/objectid.js:50:11)
+    at ObjectID (/home/jeffwang/fe/xform/node_modules/bson/lib/bson/objectid.js:31:42)
+    at Form.findOne (/home/jeffwang/fe/xform/db/form.js:9:32)
+    at module.exports (/home/jeffwang/fe/xform/routes/public/api.js:6:8)
+    at Layer.handle [as handle_request] (/home/jeffwang/fe/xform/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/jeffwang/fe/xform/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/jeffwang/fe/xform/node_modules/express/lib/router/layer.js:95:5)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:281:22
+    at param (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:354:14)
+[2017-05-19 03:57:28.619] [ERROR] app - TypeError: res.redirec is not a function
+    at module.exports (/home/jeffwang/fe/xform/routes/admin/session.js:6:9)
+    at Layer.handle [as handle_request] (/home/jeffwang/fe/xform/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:317:13)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/home/jeffwang/fe/xform/node_modules/serve-static/index.js:121:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (/home/jeffwang/fe/xform/node_modules/send/index.js:282:17)
+[2017-05-19 03:58:17.548] [ERROR] app - TypeError: res.redirec is not a function
+    at module.exports (/home/jeffwang/fe/xform/routes/admin/session.js:6:9)
+    at Layer.handle [as handle_request] (/home/jeffwang/fe/xform/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:317:13)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:275:10)
+    at serveStatic (/home/jeffwang/fe/xform/node_modules/serve-static/index.js:75:16)
+    at Layer.handle [as handle_request] (/home/jeffwang/fe/xform/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:317:13)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:284:7
+[2017-05-19 03:59:11.490] [ERROR] app - TypeError: res.redirec is not a function
+    at module.exports (/home/jeffwang/fe/xform/routes/admin/session.js:6:9)
+    at Layer.handle [as handle_request] (/home/jeffwang/fe/xform/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:317:13)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:275:10)
+    at serveStatic (/home/jeffwang/fe/xform/node_modules/serve-static/index.js:75:16)
+    at Layer.handle [as handle_request] (/home/jeffwang/fe/xform/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:317:13)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:284:7
+[2017-05-19 03:59:29.466] [ERROR] app - ReferenceError: Admin is not defined
+    at route.post (/home/jeffwang/fe/xform/routes/admin/login.js:16:3)
+    at Layer.handle [as handle_request] (/home/jeffwang/fe/xform/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/jeffwang/fe/xform/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/jeffwang/fe/xform/node_modules/express/lib/router/layer.js:95:5)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:47:12)
+[2017-05-19 03:59:29.475] [ERROR] console - Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:356:11)
+    at ServerResponse.header (/home/jeffwang/fe/xform/node_modules/express/lib/response.js:725:10)
+    at ServerResponse.send (/home/jeffwang/fe/xform/node_modules/express/lib/response.js:170:12)
+    at done (/home/jeffwang/fe/xform/node_modules/express/lib/response.js:962:10)
+    at View.renderFile [as engine] (/home/jeffwang/fe/xform/node_modules/express-art-template/src/index.js:40:9)
+    at View.render (/home/jeffwang/fe/xform/node_modules/express/lib/view.js:128:8)
+    at tryRender (/home/jeffwang/fe/xform/node_modules/express/lib/application.js:640:10)
+    at EventEmitter.render (/home/jeffwang/fe/xform/node_modules/express/lib/application.js:592:3)
+    at ServerResponse.render (/home/jeffwang/fe/xform/node_modules/express/lib/response.js:966:7)
+    at /home/jeffwang/fe/xform/app.js:78:7
+[2017-05-19 04:01:07.966] [ERROR] app - ReferenceError: Admin is not defined
+    at route.post (/home/jeffwang/fe/xform/routes/admin/login.js:16:3)
+    at Layer.handle [as handle_request] (/home/jeffwang/fe/xform/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/jeffwang/fe/xform/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/jeffwang/fe/xform/node_modules/express/lib/router/layer.js:95:5)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:47:12)
+[2017-05-19 04:01:07.983] [ERROR] console - Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:356:11)
+    at ServerResponse.header (/home/jeffwang/fe/xform/node_modules/express/lib/response.js:725:10)
+    at ServerResponse.send (/home/jeffwang/fe/xform/node_modules/express/lib/response.js:170:12)
+    at done (/home/jeffwang/fe/xform/node_modules/express/lib/response.js:962:10)
+    at View.renderFile [as engine] (/home/jeffwang/fe/xform/node_modules/express-art-template/src/index.js:40:9)
+    at View.render (/home/jeffwang/fe/xform/node_modules/express/lib/view.js:128:8)
+    at tryRender (/home/jeffwang/fe/xform/node_modules/express/lib/application.js:640:10)
+    at EventEmitter.render (/home/jeffwang/fe/xform/node_modules/express/lib/application.js:592:3)
+    at ServerResponse.render (/home/jeffwang/fe/xform/node_modules/express/lib/response.js:966:7)
+    at /home/jeffwang/fe/xform/app.js:78:7
+[2017-05-19 04:02:07.140] [ERROR] app - ReferenceError: Admin is not defined
+    at route.post (/home/jeffwang/fe/xform/routes/admin/login.js:16:3)
+    at Layer.handle [as handle_request] (/home/jeffwang/fe/xform/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/jeffwang/fe/xform/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/jeffwang/fe/xform/node_modules/express/lib/router/layer.js:95:5)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:47:12)
+[2017-05-19 04:02:07.155] [ERROR] console - Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:356:11)
+    at ServerResponse.header (/home/jeffwang/fe/xform/node_modules/express/lib/response.js:725:10)
+    at ServerResponse.send (/home/jeffwang/fe/xform/node_modules/express/lib/response.js:170:12)
+    at done (/home/jeffwang/fe/xform/node_modules/express/lib/response.js:962:10)
+    at View.renderFile [as engine] (/home/jeffwang/fe/xform/node_modules/express-art-template/src/index.js:40:9)
+    at View.render (/home/jeffwang/fe/xform/node_modules/express/lib/view.js:128:8)
+    at tryRender (/home/jeffwang/fe/xform/node_modules/express/lib/application.js:640:10)
+    at EventEmitter.render (/home/jeffwang/fe/xform/node_modules/express/lib/application.js:592:3)
+    at ServerResponse.render (/home/jeffwang/fe/xform/node_modules/express/lib/response.js:966:7)
+    at /home/jeffwang/fe/xform/app.js:78:7
+[2017-05-19 04:03:15.089] [ERROR] app - ReferenceError: Admin is not defined
+    at route.post (/home/jeffwang/fe/xform/routes/admin/login.js:16:3)
+    at Layer.handle [as handle_request] (/home/jeffwang/fe/xform/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/jeffwang/fe/xform/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/jeffwang/fe/xform/node_modules/express/lib/router/layer.js:95:5)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:47:12)
+[2017-05-19 04:03:50.985] [ERROR] routers.adming.login - undefined
+[2017-05-19 04:03:50.992] [ERROR] console - (node:56016) UnhandledPromiseRejectionWarning: Unhandled promise rejection (rejection id: 1): Error: Can't set headers after they are sent.
+[2017-05-19 04:04:25.982] [ERROR] app - TypeError: res.redirec is not a function
+    at module.exports (/home/jeffwang/fe/xform/routes/admin/session.js:6:9)
+    at Layer.handle [as handle_request] (/home/jeffwang/fe/xform/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:317:13)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/home/jeffwang/fe/xform/node_modules/serve-static/index.js:121:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (/home/jeffwang/fe/xform/node_modules/send/index.js:282:17)
+[2017-05-19 04:04:27.943] [ERROR] app - TypeError: res.redirec is not a function
+    at module.exports (/home/jeffwang/fe/xform/routes/admin/session.js:6:9)
+    at Layer.handle [as handle_request] (/home/jeffwang/fe/xform/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:317:13)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/home/jeffwang/fe/xform/node_modules/serve-static/index.js:121:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (/home/jeffwang/fe/xform/node_modules/send/index.js:282:17)
+[2017-05-19 04:04:44.330] [ERROR] app - Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters
+    at new ObjectID (/home/jeffwang/fe/xform/node_modules/bson/lib/bson/objectid.js:50:11)
+    at ObjectID (/home/jeffwang/fe/xform/node_modules/bson/lib/bson/objectid.js:31:42)
+    at Form.findOne (/home/jeffwang/fe/xform/db/form.js:9:32)
+    at module.exports (/home/jeffwang/fe/xform/routes/public/api.js:6:8)
+    at Layer.handle [as handle_request] (/home/jeffwang/fe/xform/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/jeffwang/fe/xform/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/jeffwang/fe/xform/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/jeffwang/fe/xform/node_modules/express/lib/router/layer.js:95:5)
+    at /home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:281:22
+    at param (/home/jeffwang/fe/xform/node_modules/express/lib/router/index.js:354:14)
+[2017-05-19 04:05:51.918] [ERROR] routers.adming.login - undefined
+[2017-05-19 04:05:51.937] [ERROR] console - (node:56199) UnhandledPromiseRejectionWarning: Unhandled promise rejection (rejection id: 1): Error: Can't set headers after they are sent.
+[2017-05-19 04:10:02.916] [ERROR] console - TemplateError /home/jeffwang/fe/xform/views/admin/layout/head.html:31:41
+    29| 		              <img src="img/user2-160x160.jpg" class="user-image" alt="User Image">
+    30| 		              <!-- hidden-xs hides the username on small devices so only the image appears. -->
+ >> 31| 		              <span class="hidden-xs">{{admin.username}}</span>
+    32| 		            </a>
+    33| 		            <ul class="dropdown-menu">
+    34| 		              <!-- The user image in the menu -->
+
+Cannot read property 'username' of undefined
+[2017-05-19 04:10:15.351] [ERROR] routers.adming.login - undefined
+[2017-05-19 04:10:15.379] [ERROR] console - (node:56524) UnhandledPromiseRejectionWarning: Unhandled promise rejection (rejection id: 1): Error: Can't set headers after they are sent.
+[2017-05-19 04:10:15.528] [ERROR] console - TemplateError /home/jeffwang/fe/xform/views/admin/layout/head.html:40:30
+    38| 		                <p>
+    39| 		                  	{{admin.username}}
+ >> 40| 		                  <small>于 {{new Date(admin.signup_time)}}注册</small>
+    41| 		                </p>
+    42| 		              </li>
+    43| 		              <!-- Menu Body -->
+
+Date is not a constructor
+[2017-05-19 04:13:53.431] [ERROR] console - TemplateError /home/jeffwang/fe/xform/views/admin/layout/head.html:40:34
+    38| 		                <p>
+    39| 		                  	<!--{{admin.username}}-->
+ >> 40| 		                  <!--<small>于 {{new Date(admin.signup_time)}}注册</small>-->
+    41| 		                </p>
+    42| 		              </li>
+    43| 		              <!-- Menu Body -->
+
+Date is not a constructor
+[2017-05-19 04:14:05.518] [ERROR] console - TemplateError /home/jeffwang/fe/xform/views/admin/layout/head.html:40:34
+    38| 		                <p>
+    39| 		                  	<!--{{admin.username}}-->
+ >> 40| 		                  <!--<small>于 {{new Date(admin.signup_time)}}注册</small>-->
+    41| 		                </p>
+    42| 		              </li>
+    43| 		              <!-- Menu Body -->
+
+Date is not a constructor
+[2017-05-19 04:28:33.682] [ERROR] routers.adming.login - undefined
+[2017-05-19 04:28:33.745] [ERROR] console - (node:57464) UnhandledPromiseRejectionWarning: Unhandled promise rejection (rejection id: 1): Error: Can't set headers after they are sent.
+[2017-05-19 04:30:26.040] [ERROR] routers.adming.login - undefined
+[2017-05-19 04:30:26.059] [ERROR] console - (node:57580) UnhandledPromiseRejectionWarning: Unhandled promise rejection (rejection id: 1): Error: Can't set headers after they are sent.
+[2017-05-19 04:30:40.648] [ERROR] routers.adming.login - undefined
+[2017-05-19 04:30:40.649] [ERROR] console - (node:57580) UnhandledPromiseRejectionWarning: Unhandled promise rejection (rejection id: 2): Error: Can't set headers after they are sent.
+[2017-05-19 05:44:29.968] [ERROR] db - { MongoError: failed to connect to server [112.74.170.73:21000] on first connect [MongoError: connect ENETUNREACH 112.74.170.73:21000 - Local (0.0.0.0:0)]
+    at Pool.<anonymous> (/home/jeffwang/fe/xform/node_modules/mongodb-core/lib/topologies/server.js:328:35)
+    at emitOne (events.js:96:13)
+    at Pool.emit (events.js:188:7)
+    at Connection.<anonymous> (/home/jeffwang/fe/xform/node_modules/mongodb-core/lib/connection/pool.js:274:12)
+    at Connection.g (events.js:291:16)
+    at emitTwo (events.js:106:13)
+    at Connection.emit (events.js:191:7)
+    at Socket.<anonymous> (/home/jeffwang/fe/xform/node_modules/mongodb-core/lib/connection/connection.js:177:49)
+    at Socket.g (events.js:291:16)
+    at emitOne (events.js:96:13)
+  name: 'MongoError',
+  message: 'failed to connect to server [112.74.170.73:21000] on first connect [MongoError: connect ENETUNREACH 112.74.170.73:21000 - Local (0.0.0.0:0)]' }
+[2017-05-19 05:44:29.980] [ERROR] console - (node:63246) UnhandledPromiseRejectionWarning: Unhandled promise rejection (rejection id: 1): MongoError: failed to connect to server [112.74.170.73:21000] on first connect [MongoError: connect ENETUNREACH 112.74.170.73:21000 - Local (0.0.0.0:0)]
+[2017-05-19 05:51:13.595] [ERROR] routers.adming.login - undefined
+[2017-05-19 05:51:13.615] [ERROR] console - (node:63554) UnhandledPromiseRejectionWarning: Unhandled promise rejection (rejection id: 1): Error: Can't set headers after they are sent.
+[2017-05-19 05:57:51.038] [ERROR] routers.adming.login - undefined
+[2017-05-19 05:57:51.042] [ERROR] console - (node:63554) UnhandledPromiseRejectionWarning: Unhandled promise rejection (rejection id: 2): Error: Can't set headers after they are sent.
