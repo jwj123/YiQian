@@ -1,0 +1,47 @@
+<!--
+  Generated template for the ShopPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar color="primary">
+    <ion-title>店铺信息</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <ion-list>
+
+
+
+    <Button ion-item [navPush]="editshopPage" [navParams]="{title:'店铺名称',property:'shopName'}">店铺名称<ion-note item-end >{{shopName}}</ion-note></Button>
+
+    <Button ion-item  [navPush]="editshopPage" [navParams]="{title:'店铺简称',property:'shortName'}" >店铺简称<ion-note item-end >{{shortName}}</ion-note></Button>
+    <ion-item>
+      注册时间
+      <ion-note item-end >{{registerTime}}</ion-note>
+    </ion-item>
+    <ion-item>
+      手机号码
+      <ion-note item-end >{{phone}}</ion-note>
+    </ion-item>
+  </ion-list>
+  <ion-list>
+
+      <Button  ion-item [navPush]="editshopPage" [navParams]="{title:'电子邮件',property:'email'}"> 电子邮件
+        <ion-note item-end >{{email}}</ion-note></Button>
+      <Button ion-item [navPush]="editshopPage" [navParams]="{title:'店主姓名',property:'shopUserName'}"> 店主姓名
+        <ion-note item-end >{{shopUserName}}</ion-note></Button>
+      <Button ion-item [navPush]="editshopPage" [navParams]="{title:'店铺电话',property:'shopPhone'}"> 店铺电话
+        <ion-note item-end >{{shopPhone}}</ion-note></Button>
+    <ion-item>
+      行业类型
+      <ion-note item-end ></ion-note>
+    </ion-item>
+  </ion-list>
+
+</ion-content>

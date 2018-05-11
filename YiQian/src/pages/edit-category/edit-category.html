@@ -1,0 +1,58 @@
+<!--
+  Generated template for the EditCategoryPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar color="primary">
+    <ion-title>编辑分类</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content no-padding>
+  <ion-list>
+    <ion-list-header>
+      大分类
+    </ion-list-header>
+
+    <ion-item-sliding>
+      <ion-item >
+        <h2>{{name}}</h2>
+      </ion-item>
+      <ion-item-options side="right">
+        <button ion-button clear color="primary" (click)="presentModal(activeCategory)">
+          <ion-icon name="text"></ion-icon>
+          编辑
+        </button>
+        <button ion-button clear color="secondary" (click)="showConfirm(activeCategory,0)">
+          <ion-icon name="call"></ion-icon>
+          删除
+        </button>
+      </ion-item-options>
+    </ion-item-sliding>
+
+
+    <ion-list-header>
+      小分类
+    </ion-list-header>
+
+    <ion-item-sliding *ngFor="let item of activeSubCategories">
+      <ion-item >{{item.name}}</ion-item>
+      <ion-item-options side="right">
+        <button ion-button clear color="primary" (click)="presentModal(item)">
+          <ion-icon name="text"></ion-icon>
+          编辑
+        </button>
+        <button ion-button clear color="secondary" (click)="showConfirm(item,1)">
+          <ion-icon name="call"></ion-icon>
+          删除
+        </button>
+      </ion-item-options>
+    </ion-item-sliding>
+  </ion-list>
+
+</ion-content>

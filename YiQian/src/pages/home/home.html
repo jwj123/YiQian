@@ -1,0 +1,115 @@
+<ion-header>
+  <ion-navbar color="primary">
+    <button ion-button menuToggle >
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>首页</ion-title>
+    <ion-buttons end>
+      <button ion-button icon-only><ion-icon name="calendar"></ion-icon></button>
+      <button ion-button  icon-only><ion-icon name="notifications"></ion-icon></button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<ion-content no-padding>
+  <ion-thumbnail>
+  <img src="assets/imgs/androidbanner.png" (click)="toCate()">
+  </ion-thumbnail>
+
+  <ion-grid>
+    <ion-row>
+      <ion-col class="num">
+      <h6>今日</h6>
+      <h4><span>{{564.78|number:'1.2-2'}}元</span></h4>
+        <p>比昨日:<span (ngModel)="random1"  [ngClass]="{'less-equal':random1<=0,'greater':random1>0}">{{random1|number:'1.2-2'}}</span>&nbsp;<ion-icon [name]="statuss1"></ion-icon></p>
+    </ion-col>
+      <ion-col class="num">
+        <h6>七日</h6>
+        <h4><span>{{564.78|number:'1.2-2'}}元</span></h4>
+        <p>比同期:<span (ngModel)="random2"  [ngClass]="{'less-equal':random2<=0,'greater':random2>0}">{{random2|number:'1.2-2'}}</span>&nbsp;<ion-icon [name]="statuss2"></ion-icon></p>
+      </ion-col>
+      <ion-col class="num">
+        <h6>本月</h6>
+        <h4><span>{{564.78|number:'1.2-2'}}元</span></h4>
+        <p>比上月:<span (ngModel)="random3"  [ngClass]="{'less-equal':random3<=0,'greater':random3>0}">{{random3|number:'1.2-2'}}</span>&nbsp;<ion-icon [name]="statuss3"></ion-icon></p>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  <ion-grid>
+    <ion-row class="quick-actions">
+    <ion-col class="quick-action-item">
+      <a class="shortcut" (click)="toAddProcuct()">
+        <img src="assets/imgs/add_salse.png" class="img">
+          <div class="text">新增商品</div>
+      </a>
+    </ion-col>
+    <ion-col class="quick-action-item">
+      <a class="shortcut">
+        <img src="assets/imgs/add_user.png" class="img">
+        <div class="text">新增会员</div>
+      </a>
+    </ion-col>
+    <ion-col class="quick-action-item">
+      <a class="shortcut" >
+        <img src="assets/imgs/sales_account.png" class="img">
+        <div class="text">收银记账</div>
+      </a>
+    </ion-col>
+    <ion-col class="quick-action-item">
+      <a class="shortcut" >
+        <img src="assets/imgs/a_note.png" class="img">
+        <div class="text">支出管理</div>
+      </a>
+    </ion-col>
+  </ion-row>
+    <ion-row class="quick-actions">
+      <ion-col class="quick-action-item">
+        <a class="shortcut" (click)="toProductList()">
+          <img src="assets/imgs/add_salse.png" class="img">
+          <div class="text">商品管理</div>
+        </a>
+      </ion-col>
+      <ion-col class="quick-action-item">
+        <a class="shortcut" >
+          <img src="assets/imgs/user_management.png" class="img">
+          <div class="text">会员管理</div>
+        </a>
+      </ion-col>
+      <ion-col class="quick-action-item">
+        <a class="shortcut" >
+          <img src="assets/imgs/shop_management.png" class="img">
+          <div class="text">查询销售</div>
+        </a>
+      </ion-col>
+      <ion-col class="quick-action-item">
+        <a class="shortcut" >
+          <img src="assets/imgs/analysis.png" class="img">
+          <div class="text">智能分析</div>
+        </a>
+      </ion-col>
+    </ion-row>
+    <ion-row class="quick-actions">
+      <ion-col class="quick-action-item">
+        <a class="shortcut" >
+          <img src="assets/imgs/gongying_more.png" class="img">
+          <div class="text">供应商管理</div>
+        </a>
+      </ion-col>
+      <ion-col class="quick-action-item">
+        <a class="shortcut" >
+          <img src="assets/imgs/guandan_more.png" class="img">
+          <div class="text">挂单</div>
+        </a>
+      </ion-col>
+      <ion-col class="quick-action-item">
+        <a class="shortcut" >
+          <img src="assets/imgs/image_addsales.png" class="img">
+          <div class="text">高级功能</div>
+        </a>
+      </ion-col>
+      <ion-col class="quick-action-item">
+
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

@@ -1,0 +1,19 @@
+page-category-list {
+  .con1{
+    width:40%;
+    float: left;
+  }
+  .con2{
+    width:60%;
+    float: right;
+  }
+  .item-active{
+    background-color: #fff;
+    border-left-color: color($colors,primary);
+    border-left-width: 4px;
+    border-left-style: solid;
+  }
+  .button1{
+    background: none;
+  }
+}
