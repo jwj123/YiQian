@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh_cn">
+<head>
+    <meta charset="utf-8">
+    <style type="text/css">
+        .gridStyle {
+            border: 10px solid rgb(212,212,212);
+            width: 120%;
+            height: 500px;
+        }
+        .ngGridMaxPagesNumber {
+            display:inline-block;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+<section class="content-header">
+    <ol class="breadcrumb">
+        <li><a href="#/"><i class="fa fa-cogs"></i> 系统设置</a></li>
+        <li class="active"><i class="fa fa-list-alt"></i> 点名表</li>
+    </ol>
+</section>
+<fieldset>
+    <div class="form-group">
+        <label class="col-md-2 control-label" for="Dname">请输入人员ID</label>
+        <div class="col-sm-4">
+            <input class="form-control" type="text" id="Dname" ng-model="IDs.ID" ng-maxlength="9">
+        </div>
+        <button type="button" ng-click="search()">查询</button>
+        <div>eg.170327100</div>
+    </div>
+
+</fieldset>
+
+<div class="gridStyle" ng-grid="gridOptions"></div>
+
+</div>
+</body>
+</html>

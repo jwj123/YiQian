@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh_cn">
+<head>
+    <meta charset="utf-8">
+</head>
+<body>
+<form role="form" id="userForm">
+    <div class="modal-header">
+        <div class="modal-title">用户类别</div>
+    </div>
+    <div class="modal-body">
+        <!--ng-controller="MenuInsertCtrl"-->
+        <fieldset>
+            <div class="form-group">
+                <label class="col-md-2 control-label" for="Dname">用户类别</label>
+                <div class="col-sm-4">
+                    <input class="form-control" type="text" id="Dname" ng-model="states.dname" ng-maxlength="9">
+                </div>
+                <label class="col-md-2 control-label" for="Major">类别编号</label>
+                <div class="col-sm-4">
+                    <input class="form-control" id="Major" ng-model="states.callstate">
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-md-2 control-label" for="RoleDsc">备注</label>
+                <div class="col-sm-4">
+                    <input class="form-control" type="text" id="RoleDsc" ng-model="roles.RoleDsc">
+                </div>
+            </div>
+        </fieldset>
+    </div>
+    <div class="modal-footer">
+        <button class="btn btn-primary" ng-click="ok()">保存</button>
+        <button class="btn btn-default" ng-click="cancel()">取消</button>
+    </div>
+</form>
+</body>
+</html>

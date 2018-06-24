@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh_cn">
+<head>
+    <meta charset="utf-8">
+</head>
+<body>
+<form role="form" id="userForm">
+    <div class="modal-header">
+        <div class="modal-title">教室管理</div>
+    </div>
+    <div class="modal-body">
+        <fieldset>
+            <div class="form-group">
+                <label class="col-md-2 control-label" for="university">学校</label>
+                <div class="col-sm-4">
+                    <input class="form-control" type="text" id="university" ng-model="courses.university" ng-maxlength="9">
+                </div>
+                <label class="col-md-2 control-label" for="college">教学楼</label>
+                <div class="col-sm-4">
+                    <input class="form-control" id="college" ng-model="courses.college">
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-md-2 control-label" for="department">教室</label>
+                <div class="col-sm-4">
+                    <input class="form-control" id="department" ng-model="courses.department">
+                </div>
+
+            </div>
+        </fieldset>
+    </div>
+    <div class="modal-footer">
+        <button class="btn btn-primary" ng-click="ok()">保存</button>
+        <button class="btn btn-default" ng-click="cancel()">取消</button>
+    </div>
+</form>
+</body>
+</html>

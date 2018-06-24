@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="zh_cn" ng-app="app">
+<head>
+    <meta charset="utf-8">
+    <title>首页</title>
+    <meta name="description" content="">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="bower_components/Font-Awesome/css/font-awesome.min.css">
+    <link type="text/css" rel="stylesheet" href="bower_components/ionicons/css/ionicons.min.css" >
+    <link rel="stylesheet" type="text/css" href="bower_components/ng-grid/ng-grid.min.css">
+    <link type="text/css" rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" type="text/css" href="css/htmleaf-demo.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!--[if IE]>
+    <script src="http://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+    <script type="text/javascript">
+        window.userId = "<%=user.userId%>";
+    </script>
+</head>
+<body>
+
+<meta charset="utf-8">
+
+<div class="htmleaf-container">
+
+</div>
+<div id="wrapper">
+    <div class="overlay"></div>
+
+    <!-- Sidebar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
+        <ul class="nav sidebar-nav">
+            <li class="sidebar-brand">
+                <a href="#">
+                    易签
+                </a>
+            </li>
+            <li>
+                <a href="#/user"><i class="fa fa-fw fa-child"></i>用户管理</a>
+            </li>
+            <li>
+                <a href="#/role"><i class="fa fa-fw fa-calendar"></i>角色管理</a>
+            </li>
+            <li>
+                <a href="#/permission"><i class="fa fa-fw fa-list"></i>权限管理</a>
+            </li>
+            <li>
+                <a href="#/sign"><i class="fa fa-fw fa-list"></i>签到情况</a>
+            </li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-fw fa-plus"></i> 数据字典 <span class="caret"></span></a>
+                <ul class="dropdown-menu" role="menu">
+                    <li class="dropdown-header">签到-类别-权限</li>
+                    <li><a href="#/state">签到状态</a></li>
+                    <li><a href="#/category">用户类别</a></li>
+                    <li><a href="#/permidic">用户权限</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#/school"><i class="fa fa-fw fa-question"></i>院校管理</a>
+            </li>
+            <li>
+                <a href="#/course"><i class="fa fa-fw fa-question"></i>课程管理</a>
+            </li>
+            <li>
+                <a href="#/classroom"><i class="fa fa-fw fa-calendar"></i>教室管理</a>
+            </li>
+            <li>
+                <a href="#/date"><i class="fa fa-fw fa-list"></i>作息时间</a>
+            </li>
+            <li>
+                <a href="#/about"><i class="fa fa-fw fa-info"></i>关于</a>
+            </li>
+            <li>
+                <a  href="javascript:;" ng-click="logout()"  ng-controller="NavBarController"><i class="fa fa-fw fa-sign-out"></i>退出</a>
+            </li>
+        </ul>
+    </nav>
+    <!-- /#sidebar-wrapper -->
+
+    <!-- Page Content -->
+    <div id="page-content-wrapper">
+        <button type="button" class="hamburger is-closed animated fadeInLeft" data-toggle="offcanvas">
+            <span class="hamb-top"></span>
+            <span class="hamb-middle"></span>
+            <span class="hamb-bottom"></span>
+        </button>
+
+    </div>
+    <!-- /#page-content-wrapper -->
+
+</div>
+<div class="container-fluid">
+    <div class="row">
+        <!--<div class="col-sm-3 col-md-2 sidebar-menu" ng-controller="MenuTreeCtrl"></div>-->
+        <div class="col-sm-9 col-md-10" ng-view></div>
+    </div>
+</div>
+
+
+<script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js" ></script>
+
+
+<script type="text/javascript" src="bower_components/angular/angular.min.js" ></script>
+<!--<script type="text/javascript" src="https://code.angularjs.org/1.6.0/angular.js" ></script>-->
+
+<script type="text/javascript" src="bower_components/angular-route/angular-route.min.js" ></script>
+<script type="text/javascript" src="bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
+<script type="text/javascript" src="bower_components/ng-grid/build/ng-grid.min.js"></script>
+<script type="text/javascript" src="js/controllers/userController.js"></script>
+<script type="text/javascript" src="js/controllers/roleController.js"></script>
+<script type="text/javascript" src="js/controllers/signController.js"></script>
+<script type="text/javascript" src="js/controllers/courseController.js"></script>
+<script type="text/javascript" src="js/controllers/stateController.js"></script>
+<script type="text/javascript" src="js/controllers/schoolController.js"></script>
+<script type="text/javascript" src="js/controllers/permissionController.js"></script>
+<script type="text/javascript" src="js/controllers/permidicController.js"></script>
+<script type="text/javascript" src="js/controllers/categoryController.js"></script>
+<script type="text/javascript" src="js/controllers/classroomController.js"></script>
+<script type="text/javascript" src="js/controllers/dateController.js"></script>
+<script type="text/javascript" src="js/controllers/loginController.js"></script>
+
+<script type="text/javascript" src="js/app.js"></script>
+<!-- /#wrapper -->
+
+<script src="http://cdn.bootcss.com/jquery/1.11.0/jquery.min.js" type="text/javascript"></script>
+<script>window.jQuery || document.write('<script src="js/jquery-1.11.0.min.js"><\/script>')</script>
+<script src='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js'></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        var trigger = $('.hamburger'),
+            overlay = $('.overlay'),
+            isClosed = false;
+
+        trigger.click(function () {
+            hamburger_cross();
+        });
+
+        function hamburger_cross() {
+
+            if (isClosed == true) {
+                overlay.hide();
+                trigger.removeClass('is-open');
+                trigger.addClass('is-closed');
+                isClosed = false;
+            } else {
+                overlay.show();
+                trigger.removeClass('is-closed');
+                trigger.addClass('is-open');
+                isClosed = true;
+            }
+        }
+
+        $('[data-toggle="offcanvas"]').click(function () {
+            $('#wrapper').toggleClass('toggled');
+        });
+    });
+</script>
+</body>
+</html>

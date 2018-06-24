@@ -1,0 +1,23 @@
+{
+  "name": "yiqian",
+  "version": "1.0.0",
+  "description": "'A test for electron, a desktop tool'",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "packager-linux": "electron-packager ./ yiqian --overwrite --platform=linux --arch=x64 --ignore=node_modules",
+    "packager-win": "electron-packager ./ yiqian --overwrite --platform=win32 --ignore=node_modules --ignore=app --ignore=OutPut",
+    "packager-mac": "electron-packager ./ yiqian --overwrite --platform=darwin --arch=x64 --ignore=node_modules"
+  },
+  "author": "JWJ",
+  "license": "ISC",
+  "keywords": [
+    "Electron",
+    "start",
+    "demo"
+  ],
+  "devDependencies": {
+    "electron": "1.8.2",
+    "electron-packager": "^12.0.1"
+  }
+}
