@@ -1,0 +1,34 @@
+page-qiandao {
+    ion-row {
+      align-items: center;
+      text-align: center;
+    }
+  .quick-action-item {
+    text-align: center;
+    height: 25vw;
+    display: flex;
+    align-items: center;
+    border: 1px solid #ececec;
+  }
+  .quick-action-item + .quick-action-item{
+    margin-left: -1px;
+  }
+
+  .shortcut{
+    height: auto;
+
+  }
+  .quick-actions{
+    margin-left: 1px;
+  }
+  .quick-actions + .quick-actions{
+    margin-top: -1px;
+  }
+  .text{
+    text-align: center;
+    color:#000;
+  }
+  .a{
+    text-decoration: none;
+  }
+}

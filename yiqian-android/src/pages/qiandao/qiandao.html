@@ -1,0 +1,144 @@
+<!--
+  Generated template for the QiandaoPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+  <ion-navbar  color="primary">
+    <button ion-button menuToggle>
+      <ion-icon name="arrow-back"></ion-icon>
+    </button>
+    <ion-title>选择课程和座位签到</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <h3>选择课程及座位</h3>
+  <form (ngSubmit)="sign()">
+    <!--<ion-item *ngFor="let item of cols">{{item}}</ion-item>-->
+    <ion-row>
+      <ion-col>
+        <ion-item>
+          <ion-label>选择所要签到的课程</ion-label>
+          <ion-select [(ngModel)]="course" submitText="Okay" cancelText="Cancel" name="course">
+            <ion-option value="{{item}}" *ngFor="let item of courses">{{item}}</ion-option>
+          </ion-select>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col>
+        <ion-item>
+          <ion-label>选择所坐的行</ion-label>
+          <ion-select [(ngModel)]="pai" submitText="Okay" cancelText="Cancel" name="pai">
+            <ion-option value="{{item}}" *ngFor="let item of rows">第{{item}}行</ion-option>
+          </ion-select>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col>
+        <ion-item>
+          <ion-label>选择所坐的列</ion-label>
+          <ion-select [(ngModel)]="lie" submitText="Okay" cancelText="Cancel" name="lie">
+            <ion-option value="{{item}}" *ngFor="let item of cols">第{{item}}列</ion-option>
+          </ion-select>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+
+    <!--<ion-row>-->
+    <!--<ion-col>-->
+    <!--<ion-item>-->
+    <!--<ion-label>选择上课日期</ion-label>-->
+    <!--<ion-datetime displayFormat="MMM DD YYYY" [(ngModel)]="time" name="time"></ion-datetime>-->
+    <!--</ion-item>-->
+    <!--</ion-col>-->
+    <!--</ion-row>-->
+
+    <ion-row>
+      <ion-col>
+        <button ion-button online block color="primary" type="submit" >签到</button>
+      </ion-col>
+    </ion-row>
+  </form>
+  <p text-center="">座位示意图</p>
+  <ion-card>
+    <ion-card-header>
+      行从上到下，列从左到右
+    </ion-card-header>
+    <ion-grid>
+      <ion-row class="quick-actions">
+        <ion-col class="quick-action-item">
+          <a class="shortcut" >
+            <div class="text">行：1，列：1</div>
+          </a>
+        </ion-col>
+        <ion-col class="quick-action-item">
+          <a class="shortcut" >
+            <div class="text">行：1，列：2</div>
+          </a>
+        </ion-col>
+        <ion-col class="quick-action-item">
+          <a class="shortcut" >
+            <div class="text">行：1，列：3</div>
+          </a>
+        </ion-col>
+        <ion-col class="quick-action-item">
+          <a class="shortcut" >
+            <div class="text">行：1，列：4</div>
+          </a>
+        </ion-col>
+      </ion-row>
+      <ion-row class="quick-actions">
+        <ion-col class="quick-action-item">
+          <a class="shortcut">
+            <div class="text">行：2，列：1</div>
+          </a>
+        </ion-col>
+        <ion-col class="quick-action-item">
+          <a class="shortcut" >
+            <div class="text">行：2，列：2</div>
+          </a>
+        </ion-col>
+        <ion-col class="quick-action-item">
+          <a class="shortcut" >
+            <div class="text">行：2，列：3</div>
+          </a>
+        </ion-col>
+        <ion-col class="quick-action-item">
+          <a class="shortcut" >
+            <div class="text">行：2，列：4</div>
+          </a>
+        </ion-col>
+      </ion-row>
+      <ion-row class="quick-actions">
+        <ion-col class="quick-action-item">
+          <a class="shortcut" >
+            <div class="text">行：3，列：1</div>
+          </a>
+        </ion-col>
+        <ion-col class="quick-action-item">
+          <a class="shortcut" >
+            <div class="text">行：3，列：2</div>
+          </a>
+        </ion-col>
+        <ion-col class="quick-action-item">
+          <a class="shortcut" >
+            <div class="text">行：3，列：3</div>
+          </a>
+        </ion-col>
+        <ion-col class="quick-action-item">
+          <a class="shortcut" >
+            <div class="text">行：3，列：4</div>
+          </a>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+
+  </ion-card>
+  <!--<button ion-button outline color="dark">签到</button>-->
+</ion-content>

@@ -1,0 +1,96 @@
+<ion-header>
+  <ion-navbar color="primary">
+    <button ion-button menuToggle >
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>首页</ion-title>
+    <ion-buttons end>
+      <button ion-button icon-only><ion-icon name="calendar"></ion-icon></button>
+      <button ion-button  icon-only><ion-icon name="notifications"></ion-icon></button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<ion-content no-padding>
+  <ion-thumbnail>
+  <img src="assets/imgs/xuexi.jpg" >
+  </ion-thumbnail>
+
+  <ion-grid>
+    <ion-row class="quick-actions">
+    <ion-col class="quick-action-item">
+      <a class="shortcut" (click)="toQiantui()">
+        <img src="assets/imgs/add_salse.png" class="img">
+          <div class="text">签退</div>
+      </a>
+    </ion-col>
+    <ion-col class="quick-action-item">
+      <a class="shortcut" (click)="toQiandao()">
+        <img src="assets/imgs/add_user.png" class="img">
+        <div class="text">选择位置签到</div>
+      </a>
+    </ion-col>
+    <ion-col class="quick-action-item">
+      <a class="shortcut" (click)="toChoose()">
+        <img src="assets/imgs/sales_account.png" class="img">
+        <div class="text">查看签到情况</div>
+      </a>
+    </ion-col>
+    <ion-col class="quick-action-item">
+      <a class="shortcut" (click)="toCate()">
+        <img src="assets/imgs/a_note.png" class="img">
+        <div class="text">课程管理</div>
+      </a>
+    </ion-col>
+  </ion-row>
+    <ion-row class="quick-actions">
+      <ion-col class="quick-action-item">
+        <a class="shortcut" (click)="toFanwei()">
+          <img src="assets/imgs/add_salse.png" class="img">
+          <div class="text">设置签到范围</div>
+        </a>
+      </ion-col>
+      <ion-col class="quick-action-item">
+        <a class="shortcut" >
+          <img src="assets/imgs/user_management.png" class="img">
+          <div class="text"></div>
+        </a>
+      </ion-col>
+      <ion-col class="quick-action-item">
+        <a class="shortcut" >
+          <img src="assets/imgs/shop_management.png" class="img">
+          <div class="text"></div>
+        </a>
+      </ion-col>
+      <ion-col class="quick-action-item">
+        <a class="shortcut" >
+          <img src="assets/imgs/analysis.png" class="img">
+          <div class="text"></div>
+        </a>
+      </ion-col>
+    </ion-row>
+    <ion-row class="quick-actions">
+      <ion-col class="quick-action-item">
+        <a class="shortcut" >
+          <img src="assets/imgs/gongying_more.png" class="img">
+          <div class="text"></div>
+        </a>
+      </ion-col>
+      <ion-col class="quick-action-item">
+        <a class="shortcut" >
+          <img src="assets/imgs/guandan_more.png" class="img">
+          <div class="text"></div>
+        </a>
+      </ion-col>
+      <ion-col class="quick-action-item">
+        <a class="shortcut" >
+          <img src="assets/imgs/image_addsales.png" class="img">
+          <div class="text"></div>
+        </a>
+      </ion-col>
+      <ion-col class="quick-action-item">
+
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
